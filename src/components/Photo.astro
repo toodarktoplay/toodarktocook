@@ -4,11 +4,12 @@ interface Props {
   src: string | null;
   alt: string;
   bg?: string;
+  fg?: string;
   style?: string;
   class?: string;
   eager?: boolean;
 }
-const { src, alt, bg = '#F6EEDD', style = '', class: cls = '', eager = false } = Astro.props;
+const { src, alt, bg = '#F6EEDD', fg = '#4A4034', style = '', class: cls = '', eager = false } = Astro.props;
 ---
 
 {
@@ -22,7 +23,7 @@ const { src, alt, bg = '#F6EEDD', style = '', class: cls = '', eager = false } =
       decoding="async"
     />
   ) : (
-    <div class={`ph ${cls}`} style={`background:${bg};color:#4A4034;${style}`} role="img" aria-label={`${alt} (foto pendiente)`}>
+    <div class={`ph ${cls}`} style={`background:${bg};color:${fg};${style}`} role="img" aria-label={`${alt} (foto pendiente)`}>
       Foto pendiente
     </div>
   )

@@ -11,10 +11,10 @@ const cats = categoriasConRecetas();
 
 // Experimentos que vienen; se sustituyen solos cuando publiques recetas de la serie
 const proximos = [
-  { title: 'Aires', text: 'Espumas ligerísimas con lecitina y una batidora de mano.' },
   { title: 'Aguas de hierbas', text: 'Todo el sabor y el verde de la menta o la albahaca en un líquido.' },
   { title: 'Esferificaciones', text: 'Caviar de melón y perlas que explotan en la boca.' },
   { title: 'Desestructurar', text: 'La tortilla de patatas en vaso, por capas.' },
+  { title: 'Espumas con sifón', text: 'Una espuma de patata caliente, sin complicarse.' },
 ];
 const coloresSerie = [
   { bg: C.verde, fg: C.crema },
@@ -107,7 +107,7 @@ const ticker = ['Cocina curiosa', 'Food around the world', 'Aires', 'Masas', 'Sa
                 class={t.href ? 'card tarjeta' : 'tarjeta'}
                 style={`background:${c.bg};color:${c.fg}`}
               >
-                <Photo src={t.photo} alt={t.title} bg="rgba(0,0,0,0.15)" style="height:200px;border-radius:12px" />
+                <Photo src={t.photo} alt={t.title} bg="rgba(0,0,0,0.15)" fg={c.fg} style="height:200px;border-radius:12px" />
                 <div class="t-head">
                   <span class="t-title">{t.title}</span>
                   <span class="t-num">{t.num}</span>
@@ -338,12 +338,15 @@ const ticker = ['Cocina curiosa', 'Food around the world', 'Aires', 'Masas', 'Sa
   }
   .t-head {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
     gap: 8px;
     padding: 4px 6px 0;
   }
   .t-title {
+    min-width: 0;
+    overflow-wrap: anywhere;
     font-family: var(--display);
     font-size: 24px;
     font-weight: 700;
