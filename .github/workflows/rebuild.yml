@@ -1,0 +1,17 @@
+# Reconstruye la web cada noche (para recoger recetas nuevas de Notion)
+# y permite publicar al momento desde GitHub › Actions › "Publicar web" › Run workflow.
+name: Publicar web
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Avisar a Vercel
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then echo "Falta el secreto VERCEL_DEPLOY_HOOK"; exit 1; fi
+          curl -fsS -X POST "$HOOK"

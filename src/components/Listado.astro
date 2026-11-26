@@ -1,0 +1,62 @@
+---
+import RecipeCard from './RecipeCard.astro';
+import { categoriasConRecetas, slugify, cardColor } from '../lib/recetas.js';
+interface Props {
+  titulo: string;
+  subtitulo?: string;
+  lista: any[];
+  activa?: string | null;
+}
+const { titulo, subtitulo, lista, activa = null } = Astro.props;
+const cats = categoriasConRecetas();
+---
+
+<section class="wrap listado">
+  <div class="cab">
+    <h1>{titulo}</h1>
+    {subtitulo && <p class="sub">{subtitulo}</p>}
+  </div>
+  <nav class="chips" aria-label="Categorías">
+    <a href="/recetas" class={`chip ${activa ? '' : 'activo'}`}>Todas</a>
+    {
+      cats.map((c) => (
+        <a href={`/recetas/${slugify(c)}`} class={`chip ${activa === c ? 'activo' : ''}`}>
+          {c}
+        </a>
+      ))
+    }
+  </nav>
+  <div class="grid-cards">
+    {lista.map((r, i) => <RecipeCard r={r} color={cardColor(i)} />)}
+  </div>
+</section>
+
+<style>
+  .listado {
+    padding-top: 32px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .cab {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  h1 {
+    font-size: clamp(44px, 6vw, 72px);
+    line-height: 1;
+  }
+  .sub {
+    font-size: 18px;
+    color: var(--crema-2);
+    max-width: 640px;
+    line-height: 1.6;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+</style>

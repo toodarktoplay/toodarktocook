@@ -1,0 +1,14 @@
+---
+import Photo from './Photo.astro';
+interface Props {
+  r: { slug: string; title: string; cats: string[]; photo: string | null };
+  color: string;
+}
+const { r, color } = Astro.props;
+---
+
+<a href={`/receta/${r.slug}`} class="card">
+  <Photo src={r.photo} alt={r.title} bg={color} style="height:260px;border-radius:20px" />
+  {r.cats.length > 0 && <span class="eyebrow" style="color:var(--mostaza)">{r.cats.join(' · ')}</span>}
+  <span style="font-family:var(--display);font-size:24px;font-weight:700;line-height:1.2">{r.title}</span>
+</a>

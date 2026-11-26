@@ -1,0 +1,17 @@
+{
+  "name": "toodarktocook",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "notion": "node scripts/fetch-notion.mjs",
+    "dev": "node scripts/fetch-notion.mjs && astro dev",
+    "build": "node scripts/fetch-notion.mjs && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.1.0",
+    "@fontsource/space-grotesk": "^5.1.0",
+    "astro": "^5.0.0"
+  }
+}

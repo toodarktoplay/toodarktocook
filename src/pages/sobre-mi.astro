@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Sobre mí" description="Quién hay detrás de Too Dark to Cook.">
+  <section class="wrap sobre">
+    <h1>Sobre mí</h1>
+    <!-- Cambia este texto por el tuyo cuando quieras -->
+    <p>
+      Soy Salva. No soy cocinero: soy un aficionado a la cocina, con conocimientos básicos y muchas ganas de probar
+      cosas.
+    </p>
+    <p>
+      Aquí guardo las recetas que hago en casa, de aquí y de cualquier parte del mundo. Y en <a href="/cocina-curiosa"
+        >Cocina curiosa</a
+      > pruebo técnicas de los grandes chefs para ver si un aficionado como yo es capaz de hacerlas.
+    </p>
+    <p>
+      Me inspiran Jamie Oliver, por su cocina sencilla y sin complicaciones, y Ferran Adrià, por su manera de jugar con la
+      comida.
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .sobre {
+    max-width: 760px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  h1 {
+    font-size: clamp(44px, 6vw, 72px);
+    margin-bottom: 12px;
+  }
+  p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: var(--crema-2);
+  }
+  a {
+    color: var(--mostaza);
+    text-decoration: underline;
+  }
+</style>

@@ -1,0 +1,15 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Listado from '../../components/Listado.astro';
+import { categoriasConRecetas, porCategoria, slugify } from '../../lib/recetas.js';
+
+export function getStaticPaths() {
+  return categoriasConRecetas().map((c) => ({ params: { cat: slugify(c) }, props: { c } }));
+}
+const { c } = Astro.props;
+const lista = porCategoria(c);
+---
+
+<Layout title={c} description={`Recetas de ${c} en Too Dark to Cook.`}>
+  <Listado titulo={c} subtitulo={`${lista.length} recetas`} lista={lista} activa={c} />
+</Layout>

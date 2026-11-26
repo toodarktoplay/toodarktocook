@@ -1,0 +1,104 @@
+---
+// Pinta los bloques de texto de una receta (párrafos, subtítulos y listas)
+interface Props {
+  items: any[];
+  numerados?: boolean;
+}
+const { items, numerados = false } = Astro.props;
+---
+
+{
+  items.map((b) => {
+    if (b.t === 'h3') return <h3 class="b-h3">{b.text}</h3>;
+    if (b.t === 'h2') return <h3 class="b-h3">{b.text}</h3>;
+    if (b.t === 'p') return <p class="b-p">{b.text}</p>;
+    if (b.t === 'ul' && numerados)
+      return (
+        <ol class="b-pasos">
+          {b.items.map((t: string) => <li>{t}</li>)}
+        </ol>
+      );
+    if (b.t === 'ol')
+      return (
+        <ol class={numerados ? 'b-pasos' : 'b-ol'}>
+          {b.items.map((t: string) => <li>{t}</li>)}
+        </ol>
+      );
+    if (b.t === 'ul')
+      return (
+        <ul class="b-ul">
+          {b.items.map((t: string) => <li>{t}</li>)}
+        </ul>
+      );
+    return null;
+  })
+}
+
+<style>
+  .b-h3 {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 18px 0 8px;
+  }
+  .b-p {
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0 0 12px;
+  }
+  .b-ul,
+  .b-ol {
+    margin: 0 0 12px;
+    padding: 0;
+    list-style: none;
+  }
+  .b-ul li,
+  .b-ol li {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(30, 27, 23, 0.18);
+  }
+  .b-pasos {
+    list-style: none;
+    counter-reset: paso;
+    margin: 0 0 16px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .b-pasos li {
+    counter-increment: paso;
+    position: relative;
+    padding-left: 68px;
+    min-height: 48px;
+    font-size: 16px;
+    line-height: 1.65;
+    padding-top: 10px;
+  }
+  .b-pasos li::before {
+    content: counter(paso);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 20px;
+    background: var(--tomate);
+    color: var(--tinta);
+  }
+  .b-pasos li:nth-child(3n + 2)::before {
+    background: var(--mostaza);
+  }
+  .b-pasos li:nth-child(3n)::before {
+    background: var(--verde);
+    color: var(--crema);
+  }
+</style>

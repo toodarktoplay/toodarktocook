@@ -1,0 +1,3336 @@
+[
+ {
+  "id": "foccacia",
+  "slug": "foccacia",
+  "title": "Foccacia",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-17",
+  "photo": "/img/wp/2015/05/foccacia.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Harina, sal, levadura en polvo, mezclar y añadir agua tibia en un cuenco, luego amasar en una tabla."
+   },
+   {
+    "t": "li",
+    "text": "30 minutos de reposo."
+   },
+   {
+    "t": "li",
+    "text": "Moldear los panecillos o rosquillas, añadir aceite y cada uno con: aceitunas negras, con romero, con parmesano, con tomates..."
+   },
+   {
+    "t": "li",
+    "text": "30 minutos mas de reposo."
+   },
+   {
+    "t": "li",
+    "text": "Hornear."
+   }
+  ]
+ },
+ {
+  "id": "cupcakes-de-calabaza",
+  "slug": "cupcakes-de-calabaza",
+  "title": "Cupcakes de calabaza",
+  "desc": "",
+  "cats": [
+   "Postres"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-20",
+  "photo": "/img/wp/2015/05/img_4481.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "p",
+    "text": "400g calabaza, 400g azúcar moreno, 4 huevos, sal, 300g harina, bicarbonato sódico 2 cucharas, canela, nueces, 175 aceite."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Batir todo poco a poco en el robot, rellenar recipientes, y 24 minutos horno 180*"
+   },
+   {
+    "t": "li",
+    "text": "Para decoración: mezclar mascarpone con azúcar moreno o siro-pe de ágape, añadir ralladura de lima, con pasas o nueces."
+   }
+  ]
+ },
+ {
+  "id": "albondigas-de-calamar",
+  "slug": "albondigas-de-calamar",
+  "title": "Albóndigas de calamar",
+  "desc": "",
+  "cats": [
+   "Asiático"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-20",
+  "photo": "/img/wp/2015/05/albondigas-de-calamar-con-pasta-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "1 litro de caldo de pollo, soja, jengibre, calamar, perejil, aceite de sésamo, gambas, brocoli, col, tirabeques, rábano."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "En un caldero poner 1 litro de caldo de pollo al fuego, añadir soja y jengibre rallado."
+   },
+   {
+    "t": "li",
+    "text": "Cortar el calamar y añadirlo a la trituradora con perejil y jengibre, luego con una cuchara hacer albóndigas y a una sarten con aceite de sésamo, 3 minutos por cada parte y añadir gambas a la sarten. Poner sésamo."
+   },
+   {
+    "t": "li",
+    "text": "Añadir la pasta al caldo unos 4 minutos y también toda la verdura: brocoli, col, tirabeques, rábano, con un poco de aceite de sésamo."
+   }
+  ]
+ },
+ {
+  "id": "yogur-en-mango",
+  "slug": "yogur-en-mango",
+  "title": "Yogur en mango",
+  "desc": "",
+  "cats": [
+   "Postres"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/yogur-con-mango-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Yogur griego, mango, jengibre, azúcar, agua, menta"
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Cortar jengibre a tiras, poner en caldero en agua y azúcar."
+   },
+   {
+    "t": "li",
+    "text": "Cortar mango y triturar miniprimer, colar y mezclar en el yogur y la agua almíbar de jengibre, decorar con menta."
+   }
+  ]
+ },
+ {
+  "id": "tortitas-brunch",
+  "slug": "tortitas-brunch",
+  "title": "Tortitas brunch",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/tortitas-brunch-toodarktocook-1.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Taza de harina"
+   },
+   {
+    "t": "li",
+    "text": "Taza de leche"
+   },
+   {
+    "t": "li",
+    "text": "1 huevo"
+   },
+   {
+    "t": "li",
+    "text": "Levadura"
+   },
+   {
+    "t": "li",
+    "text": "Azúcar"
+   },
+   {
+    "t": "li",
+    "text": "Mantequilla"
+   },
+   {
+    "t": "li",
+    "text": "Yogur griego"
+   },
+   {
+    "t": "li",
+    "text": "Miel o sirope de agave"
+   },
+   {
+    "t": "li",
+    "text": "Fresas, plátanos, manzana, pera...."
+   },
+   {
+    "t": "li",
+    "text": "Semillas chia"
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar una taza de harina con levadura por una de leche y un huevo un poco de azúcar, batir bien, sin grumos."
+   },
+   {
+    "t": "li",
+    "text": "Un poco de mantequilla a la sartén y un poco de pasta."
+   },
+   {
+    "t": "li",
+    "text": "Puedes rallar pera o manzana a la mezcla."
+   },
+   {
+    "t": "li",
+    "text": "Encima una cucharada de yogurt y miel, o fresas, platano.."
+   }
+  ]
+ },
+ {
+  "id": "bollos-daneses-pan-de-viena",
+  "slug": "bollos-daneses-pan-de-viena",
+  "title": "Bollos daneses, pan de viena",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/bollos-daneses-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Masa: Harina, levadura en polvo, sal, huevo, leche y azúcar, mantequilla."
+   },
+   {
+    "t": "li",
+    "text": "Relleno: cebolla caramelizada, champiñones."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Remover todo y 1 hora a la nevera. Aplastar y untar todo con mantequilla, y un rato a la nevere para que la mantequilla se endurezca, aplastar y untar mantequilla 2 veces mas, aplastar hasta 5 ml y rellenar con cebolla caramelizada y champiñones, enrollar y cortar, reposar 1 hora, luego mojar con leche o huevo y al horno 20 minutos, 180 grados."
+   }
+  ]
+ },
+ {
+  "id": "panecillos-para-hamburguesas",
+  "slug": "panecillos-para-hamburguesas",
+  "title": "Panecillos para hamburguesas",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/panecillos-para-hamburguesas-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "500 gr harina de trigo, sal y azúcar, 25 gr mantequilla, 200 ml de leche, 100 de agua tibia con 5 gr de levadura,"
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "15 minutos amasando, 1 hora de reposo, hacer 10 panecillos en bolas, aplanar y untar con huevo, 30 minutos reposo, volver a untar y espolvorear .... 30 minutos reposo en sitio caliente, y 10 minutos a 200 grados."
+   }
+  ]
+ },
+ {
+  "id": "manish-y-baba-ganoush",
+  "slug": "manish-y-baba-ganoush",
+  "title": "Manish y baba ganoush",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/manish-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "500 gr de harina de fuerza, 10 gr de levadura, 10 gr de sal, 25 gr de azúcar, agua templada y aceite, tomillo, sésamo."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Amasar y hacer una bola, reposar 1 hora. Hacer bolas y aplanar, pincharlas con un tenedor, poner tomillo y sésamo con aceite, reposar 15 minutos y al horno 15 minutos."
+   },
+   {
+    "t": "li",
+    "text": "3 berenjenas al horno 15 minutos, luego mezclar con ajo, sal, limón y perejil."
+   }
+  ]
+ },
+ {
+  "id": "aceite-de-cilantro",
+  "slug": "aceite-de-cilantro",
+  "title": "Aceite de cilantro",
+  "desc": "",
+  "cats": [
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/aceite-de-cilantro-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "25 gr cilantro (solo hojas)"
+   },
+   {
+    "t": "li",
+    "text": "10 gr perejil (solo hojas)"
+   },
+   {
+    "t": "li",
+    "text": "40 gr aceite girasol"
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Ponemos el cilantro y el perejil en agua tibia durante 15 minutos. Escurrimos y secamos bien con papel. Trituramos en la termomix junto con el aceite a temperatura de 70 grados durante 3 minutos."
+   }
+  ]
+ },
+ {
+  "id": "salsa-para-marisco",
+  "slug": "salsa-para-marisco",
+  "title": "Salsa para marisco",
+  "desc": "",
+  "cats": [
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/salva-para-marisco-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Marisco: Gambas, langostinos, cigalas, perejil, hinojo, menta, guindilla, ralladura de lima, jugo de lima, aceite, hojas de laurel."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Marisco en el fuego, con hojas d laurel"
+   },
+   {
+    "t": "li",
+    "text": "Salsa: perejil, hinojo y menta picado, con guindilla, ralladura d lima, jugo d lima, aceite - Emplatar, mezclar todo en un cuenco"
+   }
+  ]
+ },
+ {
+  "id": "tartar-de-atun",
+  "slug": "tartar-de-atun",
+  "title": "Tartar de atun",
+  "desc": "",
+  "cats": [
+   "Asiático"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-21",
+  "photo": "/img/wp/2015/05/tartar-de-atun-toodarktocook1.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Atún, aguacate, mayonesa, pimienta, ajos tiernos, queso crema, soja, aceite."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Cortar atún a cuadros pequeños, ponerlo en un bol, añadir pimienta, aceite, soja, sal y mezclar todo, dejar reposar, mínimo 20 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Cortar aguacate en tacos, en bol, añadir mayonesa y queso, cortar ajos tiernos y mezclar"
+   },
+   {
+    "t": "li",
+    "text": "Emplatar, circulo de metal, poner aguacate y encima atún."
+   }
+  ]
+ },
+ {
+  "id": "pan-de-molde",
+  "slug": "pan-de-molde",
+  "title": "Pan de molde",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-22",
+  "photo": "/img/wp/2015/05/pan-de-molde-2.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "300 agua caliente, 5 gr de levadura en polvo, 500 gr harina de trigo, 10 gr sal marina."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Amasar con fuerza un buen rato, meter 1 hora en un bol cerrado, untar el molde con aceite o mantequilla, darle forma a la pasta para meter en el molde, cerrarlo y 1 hora mas, rociar harina y al horno 30 minutos a 240 grados, rociar horno con un vaso de agua para vapor."
+   }
+  ]
+ },
+ {
+  "id": "crumpets-con-salsa-holandesa",
+  "slug": "crumpets-con-salsa-holandesa",
+  "title": "Crumpets con salsa holandesa",
+  "desc": "",
+  "cats": [
+   "Masas",
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-22",
+  "photo": "/img/wp/2015/05/crumpes-con-salsa-holandesa-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Harina, harina de fuerza, levadura, azúcar, leche templada, bicarbonato."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar harina, harina de fuerza, levadura, azúcar, leche templada, reposar 20 minutos, luego añadir bicarbonato con agua a la masa, remover y 20 minutos mas de reposo."
+   },
+   {
+    "t": "p",
+    "text": "A la plancha entre 3 y 5 minutos por parte."
+   },
+   {
+    "t": "h3",
+    "text": "Salsa holandesa"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar 3 yemas de huevo con agua, zumo medio limón y batir, añadir mantequilla fundida poco a poco, sazonar con sal y pimienta."
+   }
+  ]
+ },
+ {
+  "id": "pollo-tikka-masala",
+  "slug": "pollo-tikka-masala",
+  "title": "Pollo Tikka Masala",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-23",
+  "photo": "/img/wp/2015/05/pollo-tika-masala-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "1 cucharadita de clavo molido"
+   },
+   {
+    "t": "li",
+    "text": "1 cucharadita de comino molido"
+   },
+   {
+    "t": "li",
+    "text": "2 cucharaditas colmadas de pimentón dulce ahumado"
+   },
+   {
+    "t": "li",
+    "text": "2 cucharaditas colmadas Garam Masala"
+   },
+   {
+    "t": "li",
+    "text": "3 limones"
+   },
+   {
+    "t": "li",
+    "text": "6 dientes de ajo"
+   },
+   {
+    "t": "li",
+    "text": "1 pieza jengibre"
+   },
+   {
+    "t": "li",
+    "text": "6 cucharadas colmadas de yogur natural,"
+   },
+   {
+    "t": "li",
+    "text": "800 g de pechugas de pollo deshuesadas y sin piel"
+   },
+   {
+    "t": "li",
+    "text": "3 chiles verdes o amarillos frescos"
+   },
+   {
+    "t": "h3",
+    "text": "Para la salsa"
+   },
+   {
+    "t": "li",
+    "text": "2 cebollas"
+   },
+   {
+    "t": "li",
+    "text": "4 dientes de ajo"
+   },
+   {
+    "t": "li",
+    "text": "1-2 guindillas rojas frescas"
+   },
+   {
+    "t": "li",
+    "text": "30 g de cilantro fresco"
+   },
+   {
+    "t": "li",
+    "text": "aceite de oliva"
+   },
+   {
+    "t": "li",
+    "text": "1 cucharada de cilantro molido nivel"
+   },
+   {
+    "t": "li",
+    "text": "2 cucharaditas rasas de cúrcuma"
+   },
+   {
+    "t": "li",
+    "text": "6 cucharadas de almendras molidas"
+   },
+   {
+    "t": "li",
+    "text": "2 x 400 g latas de tomates ciruela"
+   },
+   {
+    "t": "li",
+    "text": "1 pastilla de caldo de pollo"
+   },
+   {
+    "t": "li",
+    "text": "2 x 400 g latas de leche de coco"
+   },
+   {
+    "t": "h3",
+    "text": "Para los panes paratha (opcional)"
+   },
+   {
+    "t": "li",
+    "text": "300 g de harina de pan integral"
+   },
+   {
+    "t": "li",
+    "text": "300 g de harina"
+   },
+   {
+    "t": "li",
+    "text": "2 cucharadas de aceite de oliva"
+   },
+   {
+    "t": "li",
+    "text": "Leche 400 ml semidesnatada"
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Ponga el clavo , comino y 1 cucharadita colmada cada una de pimentón y garam masala en una cacerola pequeña y tostar durante 1 minuto para traerlos de vuelta a la vida, a continuación, punteando en un tazón grande. Finamente rallar en la cáscara de 1 limón, en todo su jugo, machacar el ajo, pelar y finamente pasar por la rejilla el jengibre, y añadir el yogur y 1 cucharadita de sal marina. Cortar las pechugas de pollo en trozos de 5 cm, luego mezclar todo ese sabor en la carne. Brocheta de los trozos de pollo, intercalando con rodajas de limón y trozos de chile verde o amarillo, pero no aplastarlos juntos demasiado. Coloque en una bandeja, cubrir con papel film y dejar macerar en la nevera durante al menos 2 horas, pero preferiblemente durante la noche."
+   },
+   {
+    "t": "li",
+    "text": "Para la salsa, pelar las cebollas y el ajo, y luego cortar finamente con los chiles rojos y tallos de cilantro (reservar las hojas para después) . Ponga todo en una gran cazuela a fuego medio-alto con un poco de aceite y cocinar por unos 20 minutos, o hasta que se dore, revolviendo regularmente. Añadir las hojas de cilantro, la cúrcuma y el restante 1 cucharadita colmada de pimentón y garam masala. Cocine durante 2 minutos, luego agregar las almendras. Verter en los tomates, se desmoronan en la pastilla de caldo y añadir 300 ml de agua hirviendo. Cocine a fuego lento durante 5 minutos, luego agregue la leche de coco. Cocine a fuego lento durante unos 40 minutos, revolviendo de vez en cuando. Cuando esté listo para cocinar el pollo, rociar con un poco de aceite, a continuación, la parrilla en una barbacoa caliente, en una sartén o plancha caliente, girando hasta que esté muy dorada y retorcido en todos los lados. Cortar el pollo fuera de los pinchos directamente en la salsa, la reserva de los limones. Cocine a fuego lento durante 2 minutos mientras se utiliza pinzas para exprimir algunos limones mermelada sobre el curry, al gusto. Poner un poco más de yogur, espolvorear con las hojas de cilantro, y sirva con arroz basmati."
+   }
+  ]
+ },
+ {
+  "id": "pasta-al-pesto",
+  "slug": "pasta-al-pesto",
+  "title": "Pasta al pesto",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-23",
+  "photo": "/img/wp/2015/05/pasta-al-pesto-y-salsa-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Para los tallarines: 100 gr d harina y un huevo por persona."
+   },
+   {
+    "t": "li",
+    "text": "Pasta nido filo, aceite."
+   },
+   {
+    "t": "li",
+    "text": "Salsa pesto: albahaca, ajo, parmesano y aceite."
+   },
+   {
+    "t": "li",
+    "text": "Pollo, cebolla, nata o leche de coco, espinacas."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar la harina con los huevos, cuando tengamos una pasta homogénea 30 minutos de reposo en un recipiente cerrado. Cortar la pasta como tallarines y cocer con agua y sal."
+   },
+   {
+    "t": "li",
+    "text": "Nidos pasta filo, untar con aceite, apretar como una hoja de papel y al horno hasta que se doren."
+   },
+   {
+    "t": "li",
+    "text": "Salsa: mezclar la albahaca con ajo, aceite, sal y parmesano con un robot."
+   },
+   {
+    "t": "li",
+    "text": "A la sartén pollo troceado con cebolla cortada, y luego añadir nata o leche de coco, cuando este echo casi al apagar el fuego añadir espinacas."
+   },
+   {
+    "t": "li",
+    "text": "Emplatar: mezclar los tallarines con la salsa de pesto, y decorar con el nido de filo con el pollo y las espinacas."
+   }
+  ]
+ },
+ {
+  "id": "pescado-al-vapor",
+  "slug": "pescado-al-vapor",
+  "title": "Pescado al vapor",
+  "desc": "",
+  "cats": [
+   "Asiático",
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-23",
+  "photo": "/img/wp/2015/05/pescado-al-vapor-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Pescado, jengibre, puerro, cilantro, romero, lima, soja, sal y aceite."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Poner en un recipiente que nos quepa el bol de bambu, agua con romero. Poner el pescado dentro del bol de bambu 8 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Salsa: Cortar puerro y jengibre a la juliana. Confitarlo: añadirlo a la sarten con aceite, no esperar a que el aceite este caliente, no freir, rascar piel de lima, luego añadir salsa soja, dos minutos."
+   },
+   {
+    "t": "li",
+    "text": "Emplatar: Poner el pescado en un plato grande y añadir la salsa por encima, con sal pimienta y hojas de cilantro."
+   }
+  ]
+ },
+ {
+  "id": "pan-de-soda",
+  "slug": "pan-de-soda",
+  "title": "Pan de soda",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-23",
+  "photo": "/img/wp/2015/05/pan-de-soda-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Puedes hacer un pan en menos de una hora muy facil."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "250 de harina, 250 de harina integral, sal y bicarbonato, 420 ml de leche."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar la harina con el bicarbonato y la sal, luego añadir la leche, no amasar, darle forma, hacerle un corte y al horno 30 minutos a 200 grados."
+   }
+  ]
+ },
+ {
+  "id": "pan-de-yogur",
+  "slug": "pan-de-yogur",
+  "title": "Pan de yogur",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-24",
+  "photo": "/img/wp/2015/05/pan-de-yougur-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "250 gr de harina, 250 gr de yogur, levadura en polvo y sal."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar todo en un bol, aplanar con rodillo y a la sartén o plancha."
+   }
+  ]
+ },
+ {
+  "id": "baguette",
+  "slug": "baguette",
+  "title": "Baguette",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-24",
+  "photo": "/img/wp/2015/05/baguette-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "La famosa barra de pan francesa, también fácil de elaborar."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "500 gr harina de fuerza"
+   },
+   {
+    "t": "li",
+    "text": "300 ml de agua"
+   },
+   {
+    "t": "li",
+    "text": "25 gr de levadura natural, o levadura en polvo"
+   },
+   {
+    "t": "li",
+    "text": "Sal y aceite"
+   },
+   {
+    "t": "li",
+    "text": "Opcional: tomillo o romero natural"
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Deshacer la levadura en el agua, y añadir poco a poco a la harina, luego la sal y un chorrito de aceite."
+   },
+   {
+    "t": "li",
+    "text": "Añadir las hojas del tomillo o romero, opcional."
+   },
+   {
+    "t": "li",
+    "text": "Amasar unos 10 minutos, tapar el bol con un trapo o film y dejar reposar dos horas."
+   },
+   {
+    "t": "li",
+    "text": "Darle forma a las dos barras en una bandeja, tapar en el trapo y reposar otra hora."
+   },
+   {
+    "t": "li",
+    "text": "Precalentar el horno a 220 ºC unos 10 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Echar un vaso de agua al horno para vapor, y meter la bandeja con las dos barras, 30 minutos a 220 ºC, luego 10 a 200 ºC, dependiendo del horno puede ser un poco mas o menos, comprobar con un palillo."
+   }
+  ]
+ },
+ {
+  "id": "pan-indio-chapati",
+  "slug": "pan-indio-chapati",
+  "title": "Pan indio chapati",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-24",
+  "photo": "/img/wp/2015/05/pan-indio-chapati-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "li",
+    "text": "Ingredientes:"
+   },
+   {
+    "t": "li",
+    "text": "3 tazas de harina, 1 taza de agua tibia, sal y aceite."
+   },
+   {
+    "t": "li",
+    "text": "Elaboración:"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar la harina con la sal y el aceite, luego ir echando el agua poco a poco, dejar reposar 15 minutos, y hacer bolas super finas, a la sartén o plancha."
+   }
+  ]
+ },
+ {
+  "id": "pan-de-tomate",
+  "slug": "pan-de-tomate",
+  "title": "Pan de tomate",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-24",
+  "photo": "/img/wp/2015/05/pan-de-tomate-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "200 gr de harina, levadura en polvo, 100 gr tomates secos, albahaca."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Echar en el robot, la harina, los tomates, la albahaca y echar poco a poco el agua, y un poco de aceite en la sarte, se doran 5 minutos por cada lado."
+   }
+  ]
+ },
+ {
+  "id": "brioche-relleno-de-jamon-y-mozarela-con-albahaca",
+  "slug": "brioche-relleno-de-jamon-y-mozarela-con-albahaca",
+  "title": "Brioche relleno de jamón y mozarela con albahaca",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-24",
+  "photo": "/img/wp/2015/05/brioche.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "500 gr de harina de fuerza, 300 ml de leche, levadura en polvo, 2 huevos, mantequilla, sal, jamón, mozarela, parmesano y albahaca."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar la harina, con la leche, levadura, los huevos, sal y mantequilla. Reposar dos horas en la nevera. Aplanar y rellenar de jamón, mozarela, hojas de albahaca y parmesano rallado. 30 minutos mas de reposo. Darle la forma, mojar con leche o huevo y 25 minutos al horno a 200 grados."
+   }
+  ]
+ },
+ {
+  "id": "pizza",
+  "slug": "pizza",
+  "title": "Pizza",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-24",
+  "photo": "/img/wp/2015/05/pizza-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "500 gr de harina de fuerza, 250 de agua, 25 gr levadura en polvo, aceite, cucharadita de sal y media de azúcar. ( para dos pizzas)"
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar en un bol la harina, el agua, levadura, aceite, sal y azúcar, reposar 1 hora o mas. Hacer dos bolas de pasta, otra hora de reposo. Aplanar y rellenar al gusto, al horno unos 15 minutos 200 grados."
+   }
+  ]
+ },
+ {
+  "id": "gyozas-de-pollo-y-setas",
+  "slug": "gyozas-de-pollo-y-setas",
+  "title": "Gyozas de pollo y setas",
+  "desc": "",
+  "cats": [
+   "Asiático",
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-24",
+  "photo": "/img/wp/2015/05/gyozas-con-pollo-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Pollo, setas shiitake, bambú, soja, azúcar, aceite, aceite de sésamo, obleas de gyozas."
+   },
+   {
+    "t": "li",
+    "text": "Salsa: jengibre, puerro, soja, vinagre de arroz."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Freír un poco el pollo troceado, mezclar en un cuenco, el pollo, las setas y el bambú, añadir soja, azúcar, aceite, unas gotas de aceite de sésamo, y mezclar con las manos."
+   },
+   {
+    "t": "li",
+    "text": "Poner en un cazo agua casi hirviendo, con una cuchara ir rellenando la pasta de las obleas y cerrar como una coca y meterlas en el agua, cuando floten se sacan y a una sartén para freír un poco por cada lado."
+   },
+   {
+    "t": "li",
+    "text": "Salsa: cortar el jengibre y el puerro a la juliana, mezclar con soja y vinagre de arroz."
+   }
+  ]
+ },
+ {
+  "id": "cuscus-de-pollo-con-salsa-tzatziki",
+  "slug": "cuscus-de-pollo-con-salsa-tzatziki",
+  "title": "Cuscus de pollo con salsa Tzatziki",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-25",
+  "photo": "/img/wp/2015/05/cuscus-de-pollo-y-salsa-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "1 taza de cuscús, 2 pimientos de colores distintos, 1 guindilla roja, 4 cebolletas, manojo de eneldo, 100 gr de guisantes, aceitunas negras, aceite, queso feta."
+   },
+   {
+    "t": "li",
+    "text": "Pechugas de pollo, 1 cucharadita de orégano, pimienta negra, limón."
+   },
+   {
+    "t": "li",
+    "text": "Salsa: 1 pepino, 250 gr de yogur desnatado, limón, menta fresca."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Cuscús: una taza por dos de agua hirviendo en un bol con un pellizco de sal y se tapa."
+   },
+   {
+    "t": "li",
+    "text": "Pon las pechugas de pollo sobre una hoja de papel de horno y aderezarlo con sal, pimienta, orégano y a ralladura del limón, pliega el papel y aplasta el pollo con el rodillo. Ponlo a la sarten con un poco de aceite y frielo unos 4 minutos cada lado, que quede bien dorado."
+   },
+   {
+    "t": "li",
+    "text": "Salsa: Ralla el pepino en un cuenco, echarle un buen puñado de sal y luego apriétalo para sacar el agua, echarle de nuevo al bol con el yogur, el zumo de limón, las hojas de menta y pimienta."
+   },
+   {
+    "t": "li",
+    "text": "Añade los guisantes (ya hervidos) a una fuente, las olivas sin hueso, la guindilla, las cebolletas, los pimientos, y rociar todo con el zumo de limón, aceite, escurre el cuscus y lo añades, mezclas todos, cortar el pollo a tiras, y el queso por encima."
+   }
+  ]
+ },
+ {
+  "id": "profiteroles",
+  "slug": "profiteroles",
+  "title": "Profiteroles",
+  "desc": "",
+  "cats": [
+   "Masas",
+   "Postres"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-05-25",
+  "photo": "/img/wp/2015/05/profiterol-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "4 huevos, 100 gr de harina, 125 ml de leche, 10 gr de azúcar, un pellizco de sal, la piel de un limón."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar todos los ingredientes en un cuenco y con una manga pastelera hacer bolitas en una bandeja de horno con un papel."
+   }
+  ]
+ },
+ {
+  "id": "pasta-tallarines-espaguetis",
+  "slug": "pasta-tallarines-espaguetis",
+  "title": "Pasta, tallarines, espaguetis",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-06-08",
+  "photo": "/img/wp/2015/06/img_0161.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Unos dirán que la pasta se invento en Italia, los chinos lo rectificaron y dicen que fueron ellos.... Que mas da! ahora la puedes hacer en tu casa!"
+   },
+   {
+    "t": "li",
+    "text": "Ingredientes:"
+   },
+   {
+    "t": "li",
+    "text": "Harina, huevos."
+   },
+   {
+    "t": "li",
+    "text": "Elaboración:"
+   },
+   {
+    "t": "li",
+    "text": "Mezclar en un bol 100 gramos de harina y un huevo por persona ( no añadir sal). Dejar reposar unos 30 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Aplanar la bola de masa."
+   },
+   {
+    "t": "li",
+    "text": "Enrollar la pasta como la imagen."
+   },
+   {
+    "t": "li",
+    "text": "Cortar para tallarines o para espaguetis, al gusto."
+   },
+   {
+    "t": "li",
+    "text": "Cocer la pasta con abundante agua, ahora si añadimos la sal."
+   }
+  ]
+ },
+ {
+  "id": "arroz-frito-indonesio",
+  "slug": "arroz-frito-indonesio",
+  "title": "Arroz frito indonesio",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-06-15",
+  "photo": "/img/wp/2015/06/arroz-frito-indonesio-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "320 gr de arroz basmati, 1 cebolla, jengibre, ajo, 1 chile, 200 gr brocoli, aceite de sesamo, azúcar, soja, 4 huevos (1 por persona), cebolletas, lima, cilantro."
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Poner el arroz en un cazo con agua hirviendo, dos tazas de agua por una de arroz, con un poco de sal, unos 12 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Cortar muy fina la cebolla, jengibre, ajo y el chile y lo ponemos en el wok, previamente con aceite caliente, freímos un poco con azúcar. Añadimos el brocoli, cortado en trocitos y el arroz, con la soja, el aceite de sesamo y el jugo de media lima. Removemos sin parar unos 4 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Freír los huevos con la cebolleta picada."
+   },
+   {
+    "t": "h3",
+    "text": "Emplatar"
+   },
+   {
+    "t": "li",
+    "text": "Poner el arroz en un cuenco haciendo como una montaña y luego el huevo por encima, decorar con hojas de cilantro."
+   }
+  ]
+ },
+ {
+  "id": "gazpacho-de-tomate-con-fresas",
+  "slug": "gazpacho-de-tomate-con-fresas",
+  "title": "Gazpacho de tomate con fresas",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-06-22",
+  "photo": "/img/wp/2015/06/gazpacho-de-tomate-y-fresas-toodarktocook-e1434989219142.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Para el verano lo mejor es algo refrescante y la vez con alegría , este gazpacho lo reúne."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Tomates 70%, fresas 30%, gamba, huevas, algas, pan tostado, aceite, sal y vinagre de Jerez."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Cortar tomates y fresas y al robot, añadir sal, vinagre y un poco de aceite. Reservar en el frigorífico."
+   },
+   {
+    "t": "li",
+    "text": "En un vaso o recipiente, añadir la gamba pelada, las huevas, las algas, y fresas cortadas."
+   },
+   {
+    "t": "h3",
+    "text": "Emplatar"
+   },
+   {
+    "t": "li",
+    "text": "Servir los recipientes con los ingredientes, y a parte la jarra con el gazpacho."
+   }
+  ]
+ },
+ {
+  "id": "tapa-de-berberechos-con-patatas",
+  "slug": "tapa-de-berberechos-con-patatas",
+  "title": "Tapa de berberechos con patatas",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2015-07-28",
+  "photo": "/img/wp/2015/07/tapa-berberechos-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Una tapa diferente, que te transportar a tu niñez, el sabor de los berberechos con patatas...."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "2 latas de berberechos, 125 gr yogur natural, 125 gr nata para cocinar, calabaza, lima."
+   },
+   {
+    "t": "h2",
+    "text": "Elaboración"
+   },
+   {
+    "t": "li",
+    "text": "Poner a hervir la calabaza en un cazo con agua, en un cuenco verter los berberechos sin caldo, el yogur y la nata, mezclar todo y reservar en la nevera."
+   },
+   {
+    "t": "h3",
+    "text": "Emplatar"
+   },
+   {
+    "t": "li",
+    "text": "Colocar en un cuenco una cucharada de la calabaza, cubrir con la mezcla de berberechos y aplastar las patatas y esparcir por encima con unas gotas y ralladura de lima."
+   }
+  ]
+ },
+ {
+  "id": "gnocchis-de-patata",
+  "slug": "gnocchis-de-patata",
+  "title": "Gnocchis de patata",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2016-07-05",
+  "photo": "/img/wp/2016/07/img_1878.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Los ñoquis de patata son una receta excelente, aunque algo laboriosa, repetiréis y repetiréis."
+   },
+   {
+    "t": "h3",
+    "text": "Ingredientes para 4 personas"
+   },
+   {
+    "t": "li",
+    "text": "1 kg de patatas, 200 g de harina, 1 huevo, sal, tomillo y aceite de oliva virgen extra."
+   },
+   {
+    "t": "h3",
+    "text": "Cómo hacer gnocchis de patata"
+   },
+   {
+    "t": "p",
+    "text": "Primero lavamos las patatas. Las cocemos en agua hirviendo hasta que estén bien cocidas, las sacamos para pelarlas (no perlar antes de cocer, si no, tienen demasiada agua)."
+   },
+   {
+    "t": "p",
+    "text": "Las escurrimos y pasamos por un pasapurés en caliente. Añadimos un poco de sal y el huevo, con las hojas de tomillo, mezclamos. Añadimos poco a poco la harina hasta que se puede amasar con las manos."
+   },
+   {
+    "t": "p",
+    "text": "En todo momento trabajaremos con la mesa enharinada. Pero controlando bien la cantidad de harina. Lo de la receta es un promedio. A lo mejor necesita algo más o algo menos (depende de las patatas, del harina, del tamaño del huevo, etc). La masa debe resultar blanda, pero fácil de trabajar, que no se pegue en la medida de lo posible."
+   },
+   {
+    "t": "p",
+    "text": "Cortamos la mesa en porciones y hacemos canutillos de un grosor de unos 1,5 cm. Cortamos porciones de 1 cm o 1,5 cm y las pasamos por un tenedor presionando para hacer un hueco por un lado y por otro lado un dibujo de estrias."
+   },
+   {
+    "t": "p",
+    "text": "Cocemos en agua hirviendo con sal. Los echaremos en el agua y cuando suban arriba los vamos sacando, esto serán unos dos minutos."
+   },
+   {
+    "t": "h3",
+    "text": "Salsa para ñoquis."
+   },
+   {
+    "t": "p",
+    "text": "En una sartén rallar 4 tomates, con un poco de aceite y un chorro de vinagre de Modena, con albahaca a trocitos.. Verter los ñoquis, remover, y emplatar con recipientes para horno, espolvorear con algún queso, mozarella y al horno 5 minutos."
+   }
+  ]
+ },
+ {
+  "id": "salteado-de-vegetales-con-crema-de-guisantes",
+  "slug": "salteado-de-vegetales-con-crema-de-guisantes",
+  "title": "Salteado de vegetales con crema de guisantes",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2016-12-07",
+  "photo": "/img/wp/2016/12/img_2887-e1481107329901.jpg",
+  "blocks": [
+   {
+    "t": "h3",
+    "text": "INGREDIENTES PARA 4 PERSONAS."
+   },
+   {
+    "t": "li",
+    "text": "1 Calabacín"
+   },
+   {
+    "t": "li",
+    "text": "1 Zanahoria"
+   },
+   {
+    "t": "li",
+    "text": "1 Cebolla morada"
+   },
+   {
+    "t": "li",
+    "text": "12 Tomates cherry"
+   },
+   {
+    "t": "li",
+    "text": "Sal"
+   },
+   {
+    "t": "li",
+    "text": "Pimienta"
+   },
+   {
+    "t": "li",
+    "text": "Vinagre"
+   },
+   {
+    "t": "li",
+    "text": "1 puñado de frutos del bosque"
+   },
+   {
+    "t": "li",
+    "text": "Para la crema:"
+   },
+   {
+    "t": "li",
+    "text": "200 g de guisantes"
+   },
+   {
+    "t": "li",
+    "text": "Agua"
+   },
+   {
+    "t": "p",
+    "text": "En primer lugar,"
+   },
+   {
+    "t": "h3",
+    "text": "cocemos"
+   },
+   {
+    "t": "p",
+    "text": "en agua los"
+   },
+   {
+    "t": "h3",
+    "text": "guisantes"
+   },
+   {
+    "t": "p",
+    "text": "hasta que cambien de color y queden en su punto. Después los"
+   },
+   {
+    "t": "h3",
+    "text": "trituramos"
+   },
+   {
+    "t": "p",
+    "text": ", con la sal, pimienta. Seguimos triturando mientras agregamos un poco de agua de la cocción para conseguir una crema ligera. Reservamos la crema."
+   },
+   {
+    "t": "p",
+    "text": "A continuación, hacemos una"
+   },
+   {
+    "t": "h3",
+    "text": "vinagreta"
+   },
+   {
+    "t": "p",
+    "text": ", para ello machacamos frutos del bosque con la ayuda de un tenedor y añadimos un poco de vinagre y otro de aceite. Salamos y reservamos."
+   },
+   {
+    "t": "p",
+    "text": "Ahora cortamos en juliana el"
+   },
+   {
+    "t": "h3",
+    "text": "calabacín"
+   },
+   {
+    "t": "p",
+    "text": ", la"
+   },
+   {
+    "t": "h3",
+    "text": "zanahoria"
+   },
+   {
+    "t": "p",
+    "text": "y la"
+   },
+   {
+    "t": "h3",
+    "text": "cebolla"
+   },
+   {
+    "t": "p",
+    "text": "morada. Lo salteamos en una sartén con un poco de aceite hasta que quede al dente."
+   },
+   {
+    "t": "p",
+    "text": "Cortamos los"
+   },
+   {
+    "t": "h3",
+    "text": "cherrys"
+   },
+   {
+    "t": "p",
+    "text": "a la mitad. Reservamos."
+   },
+   {
+    "t": "li",
+    "text": "Emplatamos en un plato hondo un fondo de crema de guisantes, encima un puñadito de verduras. Decoramos con los tomates cherry y regamos con la vinagreta de frutos del bosque."
+   }
+  ]
+ },
+ {
+  "id": "carrot-cupcakes",
+  "slug": "carrot-cupcakes",
+  "title": "Carrot cupcakes",
+  "desc": "",
+  "cats": [
+   "Postres"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2016-12-13",
+  "photo": "/img/wp/2016/12/img_29131.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Carrot Cake es una de esas recetas especiales, encontrareis cientos de ellas, seguro que deliciosas todas, pero esta es la que mejor me sale."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "200 ml de aceite de oliva suave"
+   },
+   {
+    "t": "li",
+    "text": "150 grs de harina de trigo"
+   },
+   {
+    "t": "li",
+    "text": "125 gr de harina de trigo integral"
+   },
+   {
+    "t": "li",
+    "text": "1 sobre de levadura"
+   },
+   {
+    "t": "li",
+    "text": "1/2 cucharadita bicarbonato"
+   },
+   {
+    "t": "li",
+    "text": "1/2 cucharadita de nuez moscada"
+   },
+   {
+    "t": "li",
+    "text": "1 cucharadita de canela"
+   },
+   {
+    "t": "li",
+    "text": "1 pizca de sal"
+   },
+   {
+    "t": "li",
+    "text": "150grs de azúcar moreno"
+   },
+   {
+    "t": "li",
+    "text": "100grs de azúcar blanquilla"
+   },
+   {
+    "t": "li",
+    "text": "3 huevos grandes (mejor tamaño XL)"
+   },
+   {
+    "t": "li",
+    "text": "300 grs de zanahoria rallada en crudo"
+   },
+   {
+    "t": "li",
+    "text": "100 gr. de manzana pelada"
+   },
+   {
+    "t": "li",
+    "text": "La ralladura de la piel de 1 naranja"
+   },
+   {
+    "t": "li",
+    "text": "120 grs de nueces picadas"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Precalentar el horno a 180º."
+   },
+   {
+    "t": "li",
+    "text": "Triturar las zanahorias y la manzana sin piel. Reservar."
+   },
+   {
+    "t": "li",
+    "text": "Batir muy bien los huevos con el azúcar."
+   },
+   {
+    "t": "li",
+    "text": "Incorporar el aceite de oliva."
+   },
+   {
+    "t": "li",
+    "text": "Tamizar, en un recipiente, por un lado, los ingredientes secos, la harina, la levadura, la sal, bicarbonato y especias (canela y nuez moscada)."
+   },
+   {
+    "t": "li",
+    "text": "Mezclar con los ingredientes húmedos (aceite y huevos con el azúcar) y añadir la zanahoria y la manzana. Batir todos los ingredientes."
+   },
+   {
+    "t": "li",
+    "text": "Verter en cápsulas para hacer cupcakes."
+   },
+   {
+    "t": "li",
+    "text": "Meter en el horno a 180º unos 30 minutos aproximadamente, hasta que veamos que están listos, comprobar con un palillo, si sale limpio, ya estarían."
+   },
+   {
+    "t": "li",
+    "text": "Dejar unos minutos en la bandeja y pasar a una rejilla. Dejar enfriar."
+   }
+  ]
+ },
+ {
+  "id": "apple-cake",
+  "slug": "apple-cake",
+  "title": "Apple cake",
+  "desc": "",
+  "cats": [
+   "Postres"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2018-02-15",
+  "photo": "/img/wp/2018/02/img_0978.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Ingredientes para la masa:"
+   },
+   {
+    "t": "li",
+    "text": "150 gr harina"
+   },
+   {
+    "t": "li",
+    "text": "75 gr mantequilla"
+   },
+   {
+    "t": "li",
+    "text": "50 gr azúcar"
+   },
+   {
+    "t": "li",
+    "text": "1 huevo"
+   },
+   {
+    "t": "li",
+    "text": "sal"
+   },
+   {
+    "t": "p",
+    "text": "Ingredientes para la crema pastelera:"
+   },
+   {
+    "t": "li",
+    "text": "1 litro de leche"
+   },
+   {
+    "t": "li",
+    "text": "250 gr azúcar"
+   },
+   {
+    "t": "li",
+    "text": "100 gr maicena"
+   },
+   {
+    "t": "li",
+    "text": "6 yemas"
+   },
+   {
+    "t": "li",
+    "text": "vainilla"
+   },
+   {
+    "t": "p",
+    "text": "Relleno:"
+   },
+   {
+    "t": "li",
+    "text": "1 manzana"
+   },
+   {
+    "t": "p",
+    "text": "Mezclar en un bol todos los ingredientes de la pasta quebrada, y con un molde al horno 20 minutos a 180º."
+   },
+   {
+    "t": "p",
+    "text": "En un cazo todos los ingredientes de la crema pastelera, a fuego medio sin para de remover hasta que espese."
+   },
+   {
+    "t": "p",
+    "text": "Rellenar el molde con la crema pastelera, decorar con la manzana y al horno 20 minutos a 180º."
+   }
+  ]
+ },
+ {
+  "id": "ramen-express",
+  "slug": "ramen-express",
+  "title": "Ramen express",
+  "desc": "",
+  "cats": [
+   "Asiático"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-20",
+  "photo": "/img/wp/2020/04/ramen-express-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "¿Te encantaría preparar un ramen express? En esta receta aprenderás a preparar este plato japonés para poderlo disfrutar en la comodidad de tu casa, pero conservando la autenticidad de un plato hecho en las mismísimas calles de Tokio."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "200 g de solomillo de cerdo"
+   },
+   {
+    "t": "li",
+    "text": "1 l de caldo de pollo"
+   },
+   {
+    "t": "li",
+    "text": "1 trozo de repollo o col"
+   },
+   {
+    "t": "li",
+    "text": "Champiñones"
+   },
+   {
+    "t": "li",
+    "text": "Salsa de soja"
+   },
+   {
+    "t": "li",
+    "text": "1 cebolleta con tallo"
+   },
+   {
+    "t": "li",
+    "text": "1 huevo"
+   },
+   {
+    "t": "li",
+    "text": "50 ml de vino blanco"
+   },
+   {
+    "t": "li",
+    "text": "200 g de fideos ramen"
+   },
+   {
+    "t": "li",
+    "text": "Sésamo"
+   },
+   {
+    "t": "li",
+    "text": "Aceite de oliva virgen extra"
+   },
+   {
+    "t": "li",
+    "text": "Sal"
+   },
+   {
+    "t": "li",
+    "text": "Hojas de cilantro."
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Cocemos el huevo 6 minutos en agua hirviendo. Lo pelamos y preparamos para macerar en salsa de soja con vino blanco."
+   },
+   {
+    "t": "li",
+    "text": "Cocinamos el solomillo a la plancha en filetes y reservamos."
+   },
+   {
+    "t": "li",
+    "text": "En una olla con aceite de oliva doramos el repollo en tiras finas. Agregamos los champiñones en cuartos y dejamos cocinar. Cubrimos con el caldo de pollo."
+   },
+   {
+    "t": "li",
+    "text": "Cocinamos 10 minutos. Y salamos si fuese necesario."
+   },
+   {
+    "t": "li",
+    "text": "Cocemos los fideos el tiempo que indique el fabricante. Cuando estén los pasamos a la olla con el repollo, champiñones y el caldo, y apagamos el fuego."
+   },
+   {
+    "t": "li",
+    "text": "Para emplatar, en un bol ponemos el caldo con la verdura y los fideos, la carne por encima, medio huevo, con un chorrito de la salsa del huevo, la cebolleta cortada a rodajas, hojas de cilantro y semillas de sésamo."
+   }
+  ]
+ },
+ {
+  "id": "salsa-orange-french",
+  "slug": "salsa-orange-french",
+  "title": "Salsa Orange French",
+  "desc": "",
+  "cats": [
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-21",
+  "photo": "/img/wp/2020/04/salsa-orange-french.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Miel o sirope de agave"
+   },
+   {
+    "t": "li",
+    "text": "2 naranjas"
+   },
+   {
+    "t": "li",
+    "text": "Lima o limón"
+   },
+   {
+    "t": "li",
+    "text": "Mostaza"
+   },
+   {
+    "t": "li",
+    "text": "Vinagre de jerez"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "En una sartén verter la miel hasta que haga burbujas, añadir el zumo de las dos naranjas, y del limón, esperar un poco y verter una o dos cucharas de mostaza, fuego bajo o mínimo hasta que se haga una crema, añadir unas gotas del vinagre."
+   }
+  ]
+ },
+ {
+  "id": "gnocchis-bolonesa-con-salsa",
+  "slug": "gnocchis-bolonesa-con-salsa",
+  "title": "Gnocchis boloñesa con salsa",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-23",
+  "photo": "/img/wp/2020/04/ncc83oquis-xo.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Con esta plato te estallara la boca en cada bocado, texturas, sabores profundos, cítricos...."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Gnocchis: Gnocchis de patata"
+   },
+   {
+    "t": "li",
+    "text": "Salsa Orange French: Salsa Orange French"
+   },
+   {
+    "t": "h3",
+    "text": "Boloñesa"
+   },
+   {
+    "t": "li",
+    "text": "1 Puerro"
+   },
+   {
+    "t": "li",
+    "text": "2 Zanahorias"
+   },
+   {
+    "t": "li",
+    "text": "2 Ajos"
+   },
+   {
+    "t": "li",
+    "text": "100 gr carne picada por persona"
+   },
+   {
+    "t": "li",
+    "text": "Salsa tomate"
+   },
+   {
+    "t": "li",
+    "text": "Especias, morunas o indues"
+   },
+   {
+    "t": "li",
+    "text": "Chile picado, opcional."
+   },
+   {
+    "t": "li",
+    "text": "Vino tinto"
+   },
+   {
+    "t": "li",
+    "text": "Parmesano"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Cortamos el puerro y las zanahorias o trozos muy pequeños. A la sartén con los ajos picados."
+   },
+   {
+    "t": "li",
+    "text": "Antes de dorar, añadimos la carne picada, con un chorrito de vino tinto, le damos un hervor, y salsa de tomate, con las especias."
+   },
+   {
+    "t": "li",
+    "text": "Bajamos el fuego y 45 minutos a fuego lento."
+   },
+   {
+    "t": "h3",
+    "text": "Emplatar"
+   },
+   {
+    "t": "li",
+    "text": "Ponemos los gnocchis en el plato, la boloñesa por encima y rociamos con la salsa Orange French, rallar el queso parmesano por encima."
+   }
+  ]
+ },
+ {
+  "id": "patata-a-la-importancia",
+  "slug": "patata-a-la-importancia",
+  "title": "Patata a la Importancia",
+  "desc": "",
+  "cats": [
+   "Entradas",
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-27",
+  "photo": "/img/wp/2020/04/patatas-a-la-importancia.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "La patata que siempre va de guarnición o es de acompañante, en este caso es la protagonista."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Patatas"
+   },
+   {
+    "t": "li",
+    "text": "Cerveza"
+   },
+   {
+    "t": "li",
+    "text": "Jengibre"
+   },
+   {
+    "t": "li",
+    "text": "Caldo de pollo o carne."
+   },
+   {
+    "t": "li",
+    "text": "Morcilla"
+   },
+   {
+    "t": "li",
+    "text": "Limón"
+   },
+   {
+    "t": "li",
+    "text": "1/2 Cebolla"
+   },
+   {
+    "t": "li",
+    "text": "Ajos"
+   },
+   {
+    "t": "li",
+    "text": "Harina para rebozar"
+   },
+   {
+    "t": "li",
+    "text": "Nuez moscada"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Preparar sofrito de la cebolla, los ajos y el jengibre, cortado muy pequeño."
+   },
+   {
+    "t": "li",
+    "text": "Añadir la morcilla a trozos, también para sofreír."
+   },
+   {
+    "t": "li",
+    "text": "Cerveza y subir fuego para perder el alcohol."
+   },
+   {
+    "t": "li",
+    "text": "Una vez que este la morcilla deshecha añadir el caldo de pollo, cocer de 10 a 15 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Cortar las patatas como a rodajas de 1 cm de grosor, pasar por harina (5 minutos dentro de la harina), luego por huevo y a freír a fuego medio, unos 4 minutos por cada cara."
+   },
+   {
+    "t": "li",
+    "text": "Añadir el zumo del limón y un poco de nuez moscada al caldo, y las patatas, tapar y cocer unos 20 minutos a fuego bajo."
+   },
+   {
+    "t": "li",
+    "text": "Opcional, rodajas de morcilla en el caldo."
+   },
+   {
+    "t": "p",
+    "text": "Emplatar con el caldo, las patatas y la morcilla por encima."
+   }
+  ]
+ },
+ {
+  "id": "patatas-fritas-furikake",
+  "slug": "patatas-fritas-furikake",
+  "title": "Patatas fritas furikake",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-23",
+  "photo": "/img/wp/2020/04/patatas-fritas-furikake-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Con esta salsa las patatas fritas te quedaran con un toque asiático."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Patatas"
+   },
+   {
+    "t": "li",
+    "text": "Miel"
+   },
+   {
+    "t": "li",
+    "text": "Salsa de pescado"
+   },
+   {
+    "t": "li",
+    "text": "Salsa de ostras"
+   },
+   {
+    "t": "li",
+    "text": "Alga nori"
+   },
+   {
+    "t": "li",
+    "text": "Chile en polvo"
+   },
+   {
+    "t": "li",
+    "text": "Semillas sesamo"
+   },
+   {
+    "t": "li",
+    "text": "Ajo en polvo"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Cortar las patatas muy finas, y ponerlas en agua para sacar el almidón, al cabo de unos minutos secarlas con un paño y dejar secar."
+   },
+   {
+    "t": "li",
+    "text": "Mezclar en un cuenco, la miel, unas gotas de salsa de pescado y una cucharadita de salsa de ostras."
+   },
+   {
+    "t": "li",
+    "text": "Triturar alga nori, chile en polvo, semillas sesamo y ajo en polvo."
+   },
+   {
+    "t": "li",
+    "text": "Freír las patatas unos tres minutos, hasta que estén doradas."
+   },
+   {
+    "t": "li",
+    "text": "En un cuenco echar primero la salsa liquida, mezclar, y luego una espolvorear un cucharada del condimento, listas."
+   }
+  ]
+ },
+ {
+  "id": "pulpo-con-salsa-patata-fina",
+  "slug": "pulpo-con-salsa-patata-fina",
+  "title": "Pulpo con salsa patata fina",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-22",
+  "photo": "/img/wp/2020/04/pulpo-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Comer pulpo es un placer, y esta es una de esas recetas."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Dos patas de pulpo."
+   },
+   {
+    "t": "li",
+    "text": "Puerro"
+   },
+   {
+    "t": "li",
+    "text": "Patatas fritas"
+   },
+   {
+    "t": "li",
+    "text": "Nata para cocinar"
+   },
+   {
+    "t": "li",
+    "text": "Vino blanco"
+   },
+   {
+    "t": "li",
+    "text": "Mostaza"
+   },
+   {
+    "t": "li",
+    "text": "Parmesano"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Cocer las patas de pulpo a fuego medio lento, mínimo 1 hora."
+   },
+   {
+    "t": "li",
+    "text": "Rehogar medio puerro en una sartén con un poco de aceite, una vez este, añadir las patatas fritas y un chorrito de vino blanco, añadir un poco de agua, con un poco de nata ( una parte de agua por media de nata) dos cucharadas de mostaza y pimienta, cocer hasta que la patata este blanda."
+   },
+   {
+    "t": "li",
+    "text": "Pasar a un robot para triturar con queso parmesano y un chorro de aceite."
+   },
+   {
+    "t": "li",
+    "text": "Marcar el pulpo en plancha muy caliente con aceite."
+   },
+   {
+    "t": "p",
+    "text": "Emplatar con una base de la salsa de patatas, con el pulpo a rodajas y rallar un poco de parmesano."
+   }
+  ]
+ },
+ {
+  "id": "fideua-de-foie-pato-y-setas",
+  "slug": "fideua-de-foie-pato-y-setas",
+  "title": "Fideua de foie, pato y setas",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-23",
+  "photo": "/img/wp/2020/04/fideua-pato-y-foie.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Una fideuá diferente y con mucho sabor."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "100 gr de fideos (tamaño medio) por persona"
+   },
+   {
+    "t": "li",
+    "text": "Muslo de pato"
+   },
+   {
+    "t": "li",
+    "text": "Foie"
+   },
+   {
+    "t": "li",
+    "text": "Surtido de setas y o champiñones"
+   },
+   {
+    "t": "li",
+    "text": "Cebolla y ajos tiernos"
+   },
+   {
+    "t": "li",
+    "text": "Caldo de pollo, tres por uno"
+   },
+   {
+    "t": "li",
+    "text": "Pimentón, aceite, sal, ajos"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Trocear las cebollas y los ajos tiernos en pequeños trocitos y reservamos."
+   },
+   {
+    "t": "li",
+    "text": "Aceite en la paella y sofreímos el pato a trozos, cuando este hecho lo sacamos y reservamos."
+   },
+   {
+    "t": "li",
+    "text": "Ahora marcamos el foie también a trozos, sacamos y dejamos dos trozos triturados para dar sabor."
+   },
+   {
+    "t": "li",
+    "text": "Metemos en la paella la cebolla y los ajos tiernos, cuando este ya casi hecha, metemos el surtido de setas y sofreímos."
+   },
+   {
+    "t": "li",
+    "text": "Echamos los fideos, pimentón, sofreímos un par de minutos y echamos todo el caldo, con los trozos de pato y foie por encima, le damos un hervor y a fuego medio."
+   }
+  ]
+ },
+ {
+  "id": "pasta-fresca-de-harina-de-semola",
+  "slug": "pasta-fresca-de-harina-de-semola",
+  "title": "Pasta fresca de harina de semola",
+  "desc": "",
+  "cats": [
+   "Masas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-23",
+  "photo": null,
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Buena receta para adentrarte en el mundo de la pasta fresca. Fácil, rápido, sin huevo y necesitaras imaginación para las formas y rellenos o salsas infinitas."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Harina de semola 200 gr"
+   },
+   {
+    "t": "li",
+    "text": "100 ml agua"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Hacer un volcán con la harina y echar el agua en el centro, poco a poco vamos mezclando. 2 minutos para mezclar y unos 10 para amasar. Dejar reposar 5 minutos."
+   },
+   {
+    "t": "li",
+    "text": "Con maquina vamos aplastando, y ya le damos la forma, ravioli..."
+   },
+   {
+    "t": "li",
+    "text": "Echar en agua hirviendo unos 4 minutos."
+   }
+  ]
+ },
+ {
+  "id": "pakoras-de-tarta-de-zanahoria",
+  "slug": "pakoras-de-tarta-de-zanahoria",
+  "title": "Pakoras de tarta de zanahoria",
+  "desc": "",
+  "cats": [
+   "Postres"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-23",
+  "photo": "/img/wp/2020/04/pakoras-zanahoria-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "3 zanahorias"
+   },
+   {
+    "t": "li",
+    "text": "50 gr nueces"
+   },
+   {
+    "t": "li",
+    "text": "50 gr pasas"
+   },
+   {
+    "t": "li",
+    "text": "2 huevos"
+   },
+   {
+    "t": "li",
+    "text": "120 gr harina"
+   },
+   {
+    "t": "li",
+    "text": "Bicarbonato"
+   },
+   {
+    "t": "li",
+    "text": "Azúcar de caña"
+   },
+   {
+    "t": "h3",
+    "text": "Salsa"
+   },
+   {
+    "t": "li",
+    "text": "Queso crema"
+   },
+   {
+    "t": "li",
+    "text": "Miel o sirope de agave"
+   },
+   {
+    "t": "li",
+    "text": "Mantequilla"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Rallar las zanahorias, trocear las nueces, verter en un bol con las pasas, la harina y media cucharadita de bicarbonato, con especias, una cucharada de azúcar de caña, mezclar todo, batir dos huevos y añadir."
+   },
+   {
+    "t": "li",
+    "text": "Freír la mezcla, tamaño de una cuchara grande."
+   },
+   {
+    "t": "li",
+    "text": "Mezclar el queso, con la mantequilla y el sirope."
+   },
+   {
+    "t": "li",
+    "text": "Una vez estén doradas las pankoras, sacar y escurrir el aceite, espolvorear azúcar y mojar con la salsa."
+   }
+  ]
+ },
+ {
+  "id": "rawpure",
+  "slug": "rawpure",
+  "title": "RawPure",
+  "desc": "",
+  "cats": [
+   "Juice"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-04-29",
+  "photo": "/img/wp/2020/04/rawffee-rawpure-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Pera"
+   },
+   {
+    "t": "li",
+    "text": "1/2 Mango"
+   },
+   {
+    "t": "li",
+    "text": "Naranja"
+   },
+   {
+    "t": "li",
+    "text": "Limón"
+   },
+   {
+    "t": "li",
+    "text": "Pasas"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Verter en un robot (Vitamix) la pera, mango y naranja pelado, un puñado de pasas y medio limón exprimido, con hielo o agua fría."
+   }
+  ]
+ },
+ {
+  "id": "humus",
+  "slug": "humus",
+  "title": "Humus",
+  "desc": "",
+  "cats": [
+   "Entradas",
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-05-05",
+  "photo": "/img/wp/2020/05/hummus-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "600 g de garbanzos envasados"
+   },
+   {
+    "t": "li",
+    "text": "1 limón"
+   },
+   {
+    "t": "li",
+    "text": "1 diente de ajo"
+   },
+   {
+    "t": "li",
+    "text": "2 cucharadas de tahini"
+   },
+   {
+    "t": "li",
+    "text": "Aceite"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Verter los garbanzos con su líquido a la batidora y verter el zumo del limón."
+   },
+   {
+    "t": "li",
+    "text": "Pelar el ajo y añadirlo a la batidora con sal y las dos cucharadas de tahini con un chorro de aceite."
+   },
+   {
+    "t": "li",
+    "text": "Batir para que quede una crema brillante, si esta demasiado denso añadir agua."
+   }
+  ]
+ },
+ {
+  "id": "salsa-amba",
+  "slug": "salsa-amba",
+  "title": "Salsa amba",
+  "desc": "",
+  "cats": [
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-05-06",
+  "photo": "/img/wp/2020/05/salsa-amba-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "1 mango"
+   },
+   {
+    "t": "li",
+    "text": "1 lima"
+   },
+   {
+    "t": "li",
+    "text": "1 diente de ajo"
+   },
+   {
+    "t": "li",
+    "text": "Semillas: mostaza, pimienta"
+   },
+   {
+    "t": "li",
+    "text": "Pimentón dulce"
+   },
+   {
+    "t": "li",
+    "text": "Curcuma"
+   },
+   {
+    "t": "li",
+    "text": "Aceite"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Pelar el mango, poner la pulpa en una batidora, con ralladura y zumo de la lima, para obtener una mezcla suave."
+   },
+   {
+    "t": "li",
+    "text": "Pelar y filetear el ajo para ponerlo en una sarten a fuego medio con un poco de aceite y todas las especias."
+   },
+   {
+    "t": "li",
+    "text": "Dejar que se doren y añadir al mango, sazonar al gusto y dejar que se enfríe la mezcla."
+   }
+  ]
+ },
+ {
+  "id": "arroz-con-salsa-de-mejillones",
+  "slug": "arroz-con-salsa-de-mejillones",
+  "title": "Arroz con salsa de mejillones",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-05-06",
+  "photo": "/img/wp/2020/05/arroz-salsa-mejillones-toodarktocook-1.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Arroz 100 gr por persona"
+   },
+   {
+    "t": "li",
+    "text": "Mejillones en escabeche"
+   },
+   {
+    "t": "li",
+    "text": "Caldo de pescado o marisco"
+   },
+   {
+    "t": "li",
+    "text": "Ajo"
+   },
+   {
+    "t": "li",
+    "text": "Aceite"
+   },
+   {
+    "t": "li",
+    "text": "1/2 cebolla"
+   },
+   {
+    "t": "li",
+    "text": "Ñora"
+   },
+   {
+    "t": "li",
+    "text": "Vino blanco"
+   },
+   {
+    "t": "li",
+    "text": "Mejillones"
+   },
+   {
+    "t": "p",
+    "text": "Salsa mayonesa: mayonesa de mostaza"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Cortar el ajo y la cebolla en trozos muy pequeños, sofreír, ñora, echar el vino blanco, reducir y meter el caldo, un hervor y añadimos el arroz. Cocer 11 minutos."
+   },
+   {
+    "t": "li",
+    "text": "En una batidora meter los mejillones con el caldo, triturar y reservar."
+   },
+   {
+    "t": "li",
+    "text": "Sofreír los mejillones con un poco de aceite y un chorro de vino blanco, que se cocinen con su vapor, una vez abiertos, reservar los mejillones."
+   },
+   {
+    "t": "li",
+    "text": "Pasados los 11 minutos del arroz, no quedará caldo, añadir la sala de mejillones triturados, hervor 2 minutos y listo."
+   },
+   {
+    "t": "p",
+    "text": "Emplatar: base de arroz, mejillones sin cáscara por encima y la mayonesa, decorar con cebollino."
+   }
+  ]
+ },
+ {
+  "id": "mayonesa-de-mostaza",
+  "slug": "mayonesa-de-mostaza",
+  "title": "Mayonesa de mostaza",
+  "desc": "",
+  "cats": [
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-05-06",
+  "photo": "/img/wp/2020/05/mayonesa-de-mostaza-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "2 yemas de huevo"
+   },
+   {
+    "t": "li",
+    "text": "1 cucharada de mostaza"
+   },
+   {
+    "t": "li",
+    "text": "300 ml de aceite"
+   },
+   {
+    "t": "li",
+    "text": "3 cucharadas de vinagre de vino blanco"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "En un cuenco verter las dos yemas y la mostaza, y batirlas con varillas."
+   },
+   {
+    "t": "li",
+    "text": "Añadir poco a poco el aceite sin parar de batir, tener en cuenta que si se añade demasiado aceite se cortara."
+   },
+   {
+    "t": "li",
+    "text": "Cuando esté espesa, rebajarla con el vinagre, condimentar bien con sal y probar. Se puede rebajar con aceite de cacahuete."
+   },
+   {
+    "t": "li",
+    "text": "Nos durará una semana en nevera."
+   }
+  ]
+ },
+ {
+  "id": "ensalada-cesar",
+  "slug": "ensalada-cesar",
+  "title": "Ensalada César",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-05-26",
+  "photo": "/img/wp/2020/05/ensalada-cesar-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "¡Viva el César! Este aderezo de ensalada César casero rivalizará con el de cualquier gran restaurante. Puedes agregar pollo para hacer una comida o sírvalo directamente de la manera clásica."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Lechuga romana o el iceberg"
+   },
+   {
+    "t": "li",
+    "text": "Bacon crujiente"
+   },
+   {
+    "t": "li",
+    "text": "Crutones de ajo"
+   },
+   {
+    "t": "li",
+    "text": "Queso parmesano"
+   },
+   {
+    "t": "li",
+    "text": "Aceite de oliva"
+   },
+   {
+    "t": "li",
+    "text": "Aderezo para ensalada César -"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Tostar pan con ajo y aceite, cortar a dados."
+   },
+   {
+    "t": "li",
+    "text": "En la sartén tostar el bacon, hasta que quede crujiente, cortar a tiras pequeñas."
+   },
+   {
+    "t": "li",
+    "text": "Cortar la lechuga y meter en un cuenco."
+   },
+   {
+    "t": "h3",
+    "text": "Emplatar"
+   },
+   {
+    "t": "li",
+    "text": "Echar la salsa César en el cuenco de la lechuga, remover, añadir el bacon y los crutones, rallar parmesano por encima."
+   },
+   {
+    "t": "li",
+    "text": "Opcional: pollo y o aguacate."
+   }
+  ]
+ },
+ {
+  "id": "salsa-cesar",
+  "slug": "salsa-cesar",
+  "title": "Salsa cesar",
+  "desc": "",
+  "cats": [
+   "Salsas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2020-05-26",
+  "photo": "/img/wp/2020/05/salsa-cesar-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Mayonesa"
+   },
+   {
+    "t": "li",
+    "text": "Queso parmesano"
+   },
+   {
+    "t": "li",
+    "text": "Medio limón"
+   },
+   {
+    "t": "li",
+    "text": "Leche"
+   },
+   {
+    "t": "li",
+    "text": "Salsa Worcestershire"
+   },
+   {
+    "t": "li",
+    "text": "Mostaza"
+   },
+   {
+    "t": "li",
+    "text": "2 anchoas"
+   },
+   {
+    "t": "li",
+    "text": "1 ajo"
+   },
+   {
+    "t": "li",
+    "text": "Sal y pimienta"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Meter todos los ingredientes en un robot o procesador, hasta que tenga una consistencia densa."
+   }
+  ]
+ },
+ {
+  "id": "col-con-salsa-y-trufa",
+  "slug": "col-con-salsa-y-trufa",
+  "title": "Col con salsa y trufa",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2021-01-22",
+  "photo": "/img/wp/2021/01/col-con-trufa-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Col"
+   },
+   {
+    "t": "li",
+    "text": "Trufa"
+   },
+   {
+    "t": "li",
+    "text": "Cebolla"
+   },
+   {
+    "t": "li",
+    "text": "Mantequilla"
+   },
+   {
+    "t": "li",
+    "text": "Nata"
+   },
+   {
+    "t": "li",
+    "text": "Zumo limón"
+   },
+   {
+    "t": "li",
+    "text": "Vino blanco"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Limpiar la col con agua, quitar dos hojas, y en una cazuela hervir."
+   },
+   {
+    "t": "li",
+    "text": "Escurrir el agua sobrante y meterla en el horno con un poco de mantequilla y aceite, a 180º, unos veinte minutos."
+   },
+   {
+    "t": "li",
+    "text": "Salsa: Trocear la cebolla a trozos muy pequeños, y con un poco de mantequilla al fuego, añadir el vino, luego la nata y el limón, y poco a poco más mantequilla hasta que espese."
+   },
+   {
+    "t": "h3",
+    "text": "Emplatar"
+   },
+   {
+    "t": "p",
+    "text": "En un plato grande cortar la col en 4 rodajas o mas, la salsa por encima y cortar la trufa."
+   }
+  ]
+ },
+ {
+  "id": "guisantes-con-aceite-de-vainilla",
+  "slug": "guisantes-con-aceite-de-vainilla",
+  "title": "Guisantes con aceite de vainilla",
+  "desc": "",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2021-03-26",
+  "photo": "/img/wp/2021/03/guisantes-con-aceite-de-vainilla-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "200 gr Guisantes frescos"
+   },
+   {
+    "t": "li",
+    "text": "Cebolla tierna"
+   },
+   {
+    "t": "li",
+    "text": "10 gr Mantequilla"
+   },
+   {
+    "t": "li",
+    "text": "Aceite de vainilla"
+   },
+   {
+    "t": "li",
+    "text": "Limón"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Para la salsa, 60 gr guisantes con 30 gr aceite, 20 gr de agua, ralladura y zumo de limón, con sal, trituramos, colamos y reservamos."
+   },
+   {
+    "t": "li",
+    "text": "En una sartén rehogamos la mantequilla y la cebolla tierna sin coger color, luego salteamos los guisantes a fuego lento, con un poquito de sal."
+   },
+   {
+    "t": "li",
+    "text": "Con la sarten fuera del fuego, añadimos la salsa, y añadimos aceite de vainilla."
+   }
+  ]
+ },
+ {
+  "id": "risotto-de-setas",
+  "slug": "risotto-de-setas",
+  "title": "Risotto de setas",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2023-03-31",
+  "photo": "/img/wp/2023/03/rissotto-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Cebolla blanca"
+   },
+   {
+    "t": "li",
+    "text": "Penca de apio"
+   },
+   {
+    "t": "li",
+    "text": "400 gr boletus y setas"
+   },
+   {
+    "t": "li",
+    "text": "300 gr arroz para risotto, para 4 personas"
+   },
+   {
+    "t": "li",
+    "text": "Romero y tomillo"
+   },
+   {
+    "t": "li",
+    "text": "Medio vaso de vino blanco"
+   },
+   {
+    "t": "li",
+    "text": "1 litro de caldo de pollo, o pastilla"
+   },
+   {
+    "t": "li",
+    "text": "Parmesano"
+   },
+   {
+    "t": "li",
+    "text": "Mantequilla"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Corta la cebolla en trozos grandes con el apio y 100 gr de las setas para meterlo en el procesador de alimentos, triturarlo todo. Pasarlo al cazo con un chorro de aceite y el ajo picado, hasta rehogar."
+   },
+   {
+    "t": "li",
+    "text": "Picar las ramitas de romero y echarlo con el arroz al cazo, remueve sin parar un minuto y echas el vino, subes el fuego hasta perder el alcohol."
+   },
+   {
+    "t": "li",
+    "text": "Verter el caldo, probar y sazonar."
+   },
+   {
+    "t": "li",
+    "text": "Pon aceite en una sartén y dora el esto de las setas con las hojas del tomillo y ajo picado, reserva."
+   },
+   {
+    "t": "li",
+    "text": "Remover el risotto de cuando en cuando durante los 15 minutos restantes. Un poco antes verter la mantequilla y rallar un poco del queso parmesano. Tiene que quedar consistente, meloso."
+   },
+   {
+    "t": "li",
+    "text": "Emplatar,:verter el arroz en el centro del plato y por encima las setas de la sartén."
+   }
+  ]
+ },
+ {
+  "id": "pastel-de-yogur",
+  "slug": "pastel-de-yogur",
+  "title": "Pastel de yogur",
+  "desc": "",
+  "cats": [
+   "Postres"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2023-03-30",
+  "photo": "/img/wp/2023/03/pastel-yogur-3-ingredientes-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Pastel fácil, rápido y saludable, solo con 3 ingredientes."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "400 gr Yogur griego"
+   },
+   {
+    "t": "li",
+    "text": "4 huevos"
+   },
+   {
+    "t": "li",
+    "text": "200 gr Plátano"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "p",
+    "text": "1 - Tritura todos los ingredientes."
+   },
+   {
+    "t": "p",
+    "text": "2 - Hornea 40` a 180º"
+   },
+   {
+    "t": "p",
+    "text": "3 - Puedes decorar con crema de cacahuetes, chocolate, frutos secos picados.."
+   }
+  ]
+ },
+ {
+  "id": "tacos-de-pollo-marinado",
+  "slug": "tacos-de-pollo-marinado",
+  "title": "Tacos de pollo marinado",
+  "desc": "",
+  "cats": [
+   "Main menu"
+  ],
+  "serie": null,
+  "serieNum": null,
+  "date": "2023-03-31",
+  "photo": "/img/wp/2023/03/tacos-de-pollo-toodarktocook.jpg",
+  "blocks": [
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "li",
+    "text": "Pechuga de pollo"
+   },
+   {
+    "t": "li",
+    "text": "Especias: pimienta, sal, oregano, pimiento rojo, nuez moscada y ajo en polvo"
+   },
+   {
+    "t": "li",
+    "text": "Tortitas"
+   },
+   {
+    "t": "li",
+    "text": "Cebolla"
+   },
+   {
+    "t": "li",
+    "text": "Hojas verdes, lechuga.."
+   },
+   {
+    "t": "li",
+    "text": "Guacamole"
+   },
+   {
+    "t": "li",
+    "text": "Zumo naranja"
+   },
+   {
+    "t": "li",
+    "text": "Pasta de tomate"
+   },
+   {
+    "t": "li",
+    "text": "Yogur griego"
+   },
+   {
+    "t": "h2",
+    "text": "Preparación"
+   },
+   {
+    "t": "li",
+    "text": "Cortar el pollo a dados, y en un cuenco echar todas las especias con aceite, marinar con el pollo y reservar."
+   }
+  ]
+ },
+ {
+  "id": "crema-de-tomate-asado-con-aire-de-albahaca",
+  "slug": "crema-de-tomate-asado-con-aire-de-albahaca",
+  "title": "Crema de tomate asado con aire de albahaca",
+  "desc": "Tomate asado como el de toda la vida y, encima, un aire de albahaca que desaparece en la boca.",
+  "cats": [
+   "Entradas"
+  ],
+  "serie": "Cocina curiosa",
+  "serieNum": 1,
+  "date": "2026-11-25",
+  "photo": null,
+  "blocks": [
+   {
+    "t": "p",
+    "text": "Crema rústica de tomate asado al estilo Jamie Oliver, con un aire de albahaca por encima al estilo elBulli. Para 4 personas."
+   },
+   {
+    "t": "h2",
+    "text": "Ingredientes"
+   },
+   {
+    "t": "h3",
+    "text": "Crema"
+   },
+   {
+    "t": "li",
+    "text": "1,2 kg de tomates maduros"
+   },
+   {
+    "t": "li",
+    "text": "1 cebolla morada"
+   },
+   {
+    "t": "li",
+    "text": "3 dientes de ajo"
+   },
+   {
+    "t": "li",
+    "text": "4 cucharadas de aceite de oliva virgen extra"
+   },
+   {
+    "t": "li",
+    "text": "500 ml de caldo de verduras"
+   },
+   {
+    "t": "li",
+    "text": "1 cucharada de vinagre balsámico"
+   },
+   {
+    "t": "li",
+    "text": "1 cucharadita de sal"
+   },
+   {
+    "t": "li",
+    "text": "½ cucharadita de pimienta negra"
+   },
+   {
+    "t": "h3",
+    "text": "Aire de albahaca"
+   },
+   {
+    "t": "li",
+    "text": "40 g de hojas de albahaca fresca"
+   },
+   {
+    "t": "li",
+    "text": "300 ml de agua muy fría"
+   },
+   {
+    "t": "li",
+    "text": "2 g de lecitina de soja en polvo"
+   },
+   {
+    "t": "h2",
+    "text": "Pasos"
+   },
+   {
+    "t": "li",
+    "text": "Asar las verduras (40 min): precalienta el horno a 200 °C. Corta los tomates por la mitad y la cebolla en gajos. Ponlos en una bandeja con los ajos enteros sin pelar, el aceite, la sal y la pimienta, y ásalo todo hasta que los tomates estén blandos y algo tostados."
+   },
+   {
+    "t": "li",
+    "text": "Triturar la crema (5 min): pela los ajos asados. Pon todo en una olla con el caldo y el balsámico, deja que hierva suave unos minutos y tritúralo hasta que quede fino. Rectifica de sal."
+   },
+   {
+    "t": "li",
+    "text": "Escaldar la albahaca (10 s): escalda las hojas 10 segundos en agua hirviendo y pásalas enseguida a agua con hielo para que mantengan el verde."
+   },
+   {
+    "t": "li",
+    "text": "Agua de albahaca: escurre bien la albahaca y tritúrala con el agua muy fría. Cuélala con un trapo fino. A la nevera, como mucho unas horas."
+   },
+   {
+    "t": "li",
+    "text": "Montar el aire (1 min): justo antes de servir, pon el agua de albahaca en un recipiente ancho, añade la lecitina y bate en la superficie con la batidora inclinada. Reposa un minuto y recoge solo la espuma."
+   },
+   {
+    "t": "li",
+    "text": "Emplatar: crema en plato hondo, una buena cucharada de aire en el centro y un hilo de aceite. A la mesa enseguida: el aire aguanta solo unos minutos."
+   },
+   {
+    "t": "h2",
+    "text": "Lo que aprendí haciéndola"
+   },
+   {
+    "t": "li",
+    "text": "No pongas albahaca dentro de la crema: así el aire aporta todo el sabor fresco y el contraste es mayor."
+   },
+   {
+    "t": "li",
+    "text": "No cuezas las hierbas mucho rato: escaldado corto y agua con hielo, o el verde se vuelve marrón."
+   },
+   {
+    "t": "li",
+    "text": "El agua de albahaca puede estar hecha por la mañana; el aire, siempre al momento."
+   },
+   {
+    "t": "p",
+    "text": "Inspiración: Jamie Oliver (la crema) y Ferran Adrià / elBulli (el aire)."
+   }
+  ]
+ }
+]

@@ -1,0 +1,139 @@
+---
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/space-grotesk/500.css';
+import '@fontsource/space-grotesk/700.css';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string | null;
+}
+
+const {
+  title,
+  description = 'Recetas de casa con un toque curioso. Food around the world.',
+  image = null,
+} = Astro.props;
+const fullTitle = title ? `${title} · Too Dark to Cook` : 'Too Dark to Cook · Food around the world';
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = image ? new URL(image, Astro.site).href : null;
+const path = Astro.url.pathname;
+const activo = (p: string) => (path === p || path.startsWith(p + '/') ? 'activo' : '');
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="theme-color" content="#34503A" />
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="wrap top">
+      <a href="/" class="logo">TOO DARK TO COOK</a>
+      <nav aria-label="Principal">
+        <a href="/recetas" class={activo('/recetas')}>Recetas</a>
+        <a href="/sobre-mi" class={activo('/sobre-mi')}>Sobre mí</a>
+        <a href="/cocina-curiosa" class="nav-serie">Cocina curiosa</a>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="pie">
+      <div class="wrap pie-in">
+        <div class="pie-marca">
+          <span class="logo">TOO DARK TO COOK</span>
+          <span class="pie-lema">Food around the world</span>
+        </div>
+        <div class="pie-links">
+          <a href="https://www.instagram.com/toodarktocook/" rel="me noopener">Instagram · @toodarktocook</a>
+          <span>© {new Date().getFullYear()} Salva</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .top {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.08em;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  nav a.activo {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+  }
+  .nav-serie {
+    background: var(--mostaza);
+    color: var(--tinta);
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 999px;
+  }
+  .pie {
+    background: rgba(0, 0, 0, 0.28);
+    padding: 48px 0;
+    margin-top: 0;
+  }
+  .pie-in {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pie-marca {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .pie-marca .logo {
+    font-size: 16px;
+  }
+  .pie-lema,
+  .pie-links {
+    font-size: 14px;
+    color: var(--crema-2);
+  }
+  .pie-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+  }
+</style>

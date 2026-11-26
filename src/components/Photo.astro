@@ -1,0 +1,29 @@
+---
+// Foto de la receta, o un hueco de color si todavía no tiene
+interface Props {
+  src: string | null;
+  alt: string;
+  bg?: string;
+  style?: string;
+  class?: string;
+  eager?: boolean;
+}
+const { src, alt, bg = '#F6EEDD', style = '', class: cls = '', eager = false } = Astro.props;
+---
+
+{
+  src ? (
+    <img
+      src={src}
+      alt={alt}
+      class={cls}
+      style={`object-fit:cover;width:100%;${style}`}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+  ) : (
+    <div class={`ph ${cls}`} style={`background:${bg};color:#4A4034;${style}`} role="img" aria-label={`${alt} (foto pendiente)`}>
+      Foto pendiente
+    </div>
+  )
+}

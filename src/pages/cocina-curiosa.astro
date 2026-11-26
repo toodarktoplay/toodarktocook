@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RecipeCard from '../components/RecipeCard.astro';
+import { serie, cardColor } from '../lib/recetas.js';
+const lista = serie();
+---
+
+<Layout
+  title="Cocina curiosa"
+  description="Técnicas de los grandes chefs probadas en una cocina de casa, por un aficionado. Fallos incluidos."
+>
+  <section class="cab">
+    <div class="wrap cab-in">
+      <h1>Cocina curiosa</h1>
+      <p>
+        No soy cocinero, soy un aficionado con curiosidad. Cuando veo algo que hacen los grandes —un aire, una
+        esferificación, un plato desmontado— lo pruebo en casa, con lo que tengo, y te cuento qué tal salió. Fallos
+        incluidos. Si me sale a mí, te sale a ti.
+      </p>
+    </div>
+  </section>
+  <section class="wrap lista">
+    {
+      lista.length ? (
+        <div class="grid-cards">
+          {lista.map((r, i) => (
+            <RecipeCard r={r} color={cardColor(i)} />
+          ))}
+        </div>
+      ) : (
+        <p>Pronto, el primer experimento.</p>
+      )
+    }
+  </section>
+</Layout>
+
+<style>
+  .cab {
+    background: var(--tomate);
+    color: var(--tinta);
+    padding: 72px 0;
+  }
+  .cab-in {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  h1 {
+    font-size: clamp(48px, 7vw, 88px);
+    line-height: 1;
+  }
+  .cab p {
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 680px;
+  }
+  .lista {
+    padding-top: 72px;
+    padding-bottom: 96px;
+  }
+</style>

@@ -1,0 +1,9 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Listado from '../../components/Listado.astro';
+import { recetas } from '../../lib/recetas.js';
+---
+
+<Layout title="Recetas" description="Todas las recetas de Too Dark to Cook: masas, salsas, asiático, postres y más.">
+  <Listado titulo="Recetas" subtitulo={`${recetas.length} recetas de casa, probadas en mi cocina.`} lista={recetas} />
+</Layout>

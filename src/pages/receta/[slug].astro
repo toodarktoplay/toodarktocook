@@ -1,0 +1,298 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Photo from '../../components/Photo.astro';
+import Blocks from '../../components/Blocks.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
+import { recetas, secciones, slugify, cardColor } from '../../lib/recetas.js';
+
+export function getStaticPaths() {
+  return recetas.map((r) => ({ params: { slug: r.slug }, props: { r } }));
+}
+
+const { r } = Astro.props;
+const s = secciones(r.blocks);
+const introTexto = s.intro.find((b) => b.t === 'p')?.text;
+const desc = r.desc || introTexto || `Receta de ${r.title} en Too Dark to Cook.`;
+
+const parecidas = recetas
+  .filter((x) => x.slug !== r.slug && x.cats.some((c) => r.cats.includes(c)))
+  .slice(0, 3);
+
+const fecha = new Date(r.date + 'T12:00:00').toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
+
+// Datos estructurados para que Google entienda que es una receta
+const listaTexto = (bloques) =>
+  bloques.flatMap((b) => (b.t === 'ul' || b.t === 'ol' ? b.items : b.t === 'p' ? [b.text] : []));
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Recipe',
+  name: r.title,
+  description: desc,
+  datePublished: r.date,
+  author: { '@type': 'Person', name: 'Salva' },
+  image: r.photo ? [new URL(r.photo, Astro.site).href] : undefined,
+  recipeCategory: r.cats[0],
+  recipeIngredient: s.estructurada ? listaTexto(s.ingredientes) : undefined,
+  recipeInstructions: s.estructurada
+    ? listaTexto(s.pasos).map((t) => ({ '@type': 'HowToStep', text: t }))
+    : undefined,
+};
+---
+
+<Layout title={r.title} description={desc} image={r.photo}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+
+  <section class="wrap cabecera">
+    <div class="cab-txt">
+      <p class="migas">
+        <a href="/">Inicio</a> / <a href="/recetas">Recetas</a>
+        {
+          r.cats[0] && (
+            <>
+              {' / '}
+              <a href={`/recetas/${slugify(r.cats[0])}`}>{r.cats[0]}</a>
+            </>
+          )
+        }
+      </p>
+      <div class="pills">
+        {r.serie && <span class="pill" style="background:var(--mostaza);color:var(--tinta)">{r.serie} #{r.serieNum}</span>}
+        {
+          r.cats.map((c, i) => (
+            <a
+              href={`/recetas/${slugify(c)}`}
+              class="pill"
+              style={`background:${i % 2 ? 'var(--crema)' : 'var(--tomate)'};color:var(--tinta)`}
+            >
+              {c}
+            </a>
+          ))
+        }
+      </div>
+      <h1 class="titulo">{r.title}</h1>
+      {r.desc && <p class="entradilla">{r.desc}</p>}
+      <p class="fecha">{fecha}</p>
+    </div>
+    <div class="cab-foto">
+      <div class="cab-bloque" />
+      <Photo src={r.photo} alt={r.title} class="cab-img" eager />
+      {
+        r.serie && (
+          <div class="sticker cab-sticker" aria-hidden="true">
+            <span>COCINA</span>
+            <strong>#{r.serieNum}</strong>
+            <span>CURIOSA</span>
+          </div>
+        )
+      }
+    </div>
+  </section>
+
+  <section class="cuerpo">
+    {
+      s.estructurada ? (
+        <div class="wrap-receta">
+          {s.intro.length > 0 && (
+            <div class="intro">
+              <Blocks items={s.intro} />
+            </div>
+          )}
+          <div class="columnas">
+            <aside class="ingredientes">
+              <h2>Ingredientes</h2>
+              <Blocks items={s.ingredientes} />
+            </aside>
+            <div class="pasos">
+              <h2>Paso a paso</h2>
+              <Blocks items={s.pasos} numerados />
+              {s.extra.map((e, i) => (
+                <div class={i === 0 ? 'extra tomate' : 'extra'}>
+                  <h2>{e.title}</h2>
+                  <Blocks items={e.items} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div class="wrap-receta libre">
+          <Blocks items={s.todo} />
+        </div>
+      )
+    }
+  </section>
+
+  {
+    parecidas.length > 0 && (
+      <section class="wrap mas">
+        <h2 style="font-size:40px">Sigue curioseando</h2>
+        <div class="grid-cards">
+          {parecidas.map((x, i) => (
+            <RecipeCard r={x} color={cardColor(i)} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+</Layout>
+
+<style>
+  .cabecera {
+    padding-top: 24px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+    align-items: center;
+  }
+  .cab-txt {
+    flex: 1 1 440px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .migas,
+  .fecha {
+    font-size: 14px;
+    color: var(--crema-2);
+  }
+  .pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .titulo {
+    font-size: clamp(40px, 5vw, 64px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .entradilla {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--crema-2);
+  }
+  .cab-foto {
+    flex: 1 1 460px;
+    min-width: 0;
+    position: relative;
+    height: 520px;
+  }
+  .cab-bloque {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 72%;
+    height: 78%;
+    border-radius: 28px;
+    background: var(--tomate);
+  }
+  .cab-foto :global(.cab-img) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 94% !important;
+    height: 93%;
+    border-radius: 24px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+  }
+  .cab-sticker {
+    position: absolute;
+    top: -16px;
+    right: 8px;
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    background: var(--mostaza);
+    color: var(--tinta);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--display);
+    font-weight: 700;
+    line-height: 1.05;
+    transform: rotate(-10deg);
+  }
+  .cab-sticker span {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+  .cab-sticker strong {
+    font-size: 30px;
+  }
+  .cuerpo {
+    background: var(--crema);
+    color: var(--tinta);
+    padding: 80px 0;
+  }
+  .wrap-receta {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .libre {
+    max-width: 760px;
+  }
+  .intro {
+    max-width: 760px;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  .columnas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+    align-items: flex-start;
+  }
+  .ingredientes {
+    flex: 1 1 300px;
+    min-width: 0;
+    background: var(--mostaza);
+    border-radius: 24px;
+    padding: 28px;
+  }
+  .pasos {
+    flex: 999 1 520px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ingredientes h2,
+  .pasos > h2,
+  .extra h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .extra {
+    background: rgba(30, 27, 23, 0.06);
+    border-radius: 24px;
+    padding: 26px;
+    margin-top: 16px;
+  }
+  .extra h2 {
+    font-size: 22px;
+  }
+  .extra.tomate {
+    background: var(--tomate);
+  }
+  .mas {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  @media (max-width: 640px) {
+    .cab-foto {
+      height: 340px;
+    }
+    .wrap-receta {
+      padding: 0 20px;
+    }
+    .ingredientes {
+      padding: 22px;
+    }
+  }
+</style>
