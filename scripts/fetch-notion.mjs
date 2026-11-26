@@ -182,16 +182,18 @@ async function main() {
     const { blocks, firstFileImage, images } = toBlocks(await children(page.id));
 
     // Foto: la que subas a Notion (portada o primera imagen) manda sobre la vieja de WordPress
+    // Orden: portada de Notion (subida o enlazada) → primera foto subida dentro de la receta
     let photo = null;
-    let fotoDelCuerpo = null;
-    try {
-      if (page.cover?.type === 'file') photo = await download(page.cover.file.url, slug);
-      else if (firstFileImage) {
-        photo = await download(firstFileImage, slug);
-        fotoDelCuerpo = firstFileImage;
+    let fotoPrincipal = null;
+    const coverUrl = page.cover ? page.cover[page.cover.type]?.url : null;
+    for (const url of [coverUrl, firstFileImage]) {
+      if (!url || photo) continue;
+      try {
+        photo = await download(url, slug);
+        fotoPrincipal = url;
+      } catch (e) {
+        console.warn(e.message);
       }
-    } catch (e) {
-      console.warn(e.message);
     }
     if (!photo) {
       const wp = plain(prop(page, 'Foto WP')?.rich_text);
@@ -205,7 +207,7 @@ async function main() {
     // La que ya se usa como foto principal no se repite.
     const gallery = [];
     for (const [i, img] of images.entries()) {
-      if (img.url === fotoDelCuerpo) continue;
+      if (img.url === fotoPrincipal) continue;
       try {
         gallery.push({ src: await download(img.url, `${slug}-${i + 1}`), caption: img.caption });
       } catch (e) {

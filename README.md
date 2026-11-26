@@ -27,7 +27,7 @@ Sin `.env` también arranca: usa las recetas guardadas en `src/data/recetas.json
 - `scripts/fetch-notion.mjs` lee Notion, convierte cada receta y la guarda en `src/data/recetas.json`.
   Se ejecuta solo antes de `npm run dev` y `npm run build`. También a mano: `npm run notion`.
 - **Fotos:**
-  1. Si subes una foto a Notion como portada de la receta (o como imagen dentro), se usa esa.
+  1. La portada de la receta en Notion (subida o enlazada). Si no tiene, la primera foto subida dentro de la receta.
   2. Si no, se usa la foto antigua de WordPress (`public/img/wp/`, a partir del campo **Foto WP**).
   3. Si no hay ninguna, sale un hueco de "Foto pendiente".
   4. El resto de fotos que pongas dentro de la receta en Notion salen en una galería **Fotos**, debajo de los pasos (con su pie de foto, si tiene).
