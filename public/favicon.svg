@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#34503A"/><circle cx="32" cy="34" r="18" fill="#E8573B"/><circle cx="32" cy="34" r="10" fill="#F6EEDD"/><circle cx="46" cy="16" r="7" fill="#EDB547"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" role="img" aria-label="Too Dark to Cook: cabeza de gato con gafas de sol y palillos">
+<circle cx="200" cy="200" r="192" fill="#E8573B"/>
+<line x1="70" y1="330" x2="330" y2="70" stroke="#EDB547" stroke-width="12" stroke-linecap="round"/>
+<line x1="70" y1="70" x2="330" y2="330" stroke="#EDB547" stroke-width="12" stroke-linecap="round"/>
+<line x1="70" y1="330" x2="88" y2="312" stroke="#1E1B17" stroke-width="12" stroke-linecap="round"/>
+<line x1="70" y1="70" x2="88" y2="88" stroke="#1E1B17" stroke-width="12" stroke-linecap="round"/>
+<g transform="translate(0,30)">
+<polygon points="118,140 130,58 184,104" fill="#F6EEDD" stroke="#1E1B17" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="282,140 270,58 216,104" fill="#F6EEDD" stroke="#1E1B17" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="134,118 140,84 164,104" fill="#E8573B"/>
+<polygon points="266,118 260,84 236,104" fill="#E8573B"/>
+<ellipse cx="200" cy="165" rx="96" ry="84" fill="#F6EEDD" stroke="#1E1B17" stroke-width="7"/>
+<path d="M188 92 l4 22 M200 88 v24 M212 92 l-4 22" stroke="#1E1B17" stroke-width="4" stroke-linecap="round"/>
+<rect x="116" y="138" width="74" height="46" rx="20" fill="#1E1B17"/>
+<rect x="210" y="138" width="74" height="46" rx="20" fill="#1E1B17"/>
+<rect x="186" y="148" width="28" height="9" rx="4" fill="#1E1B17"/>
+<path d="M130 150 q10 -8 22 -6" stroke="#F6EEDD" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8"/>
+<path d="M224 150 q10 -8 22 -6" stroke="#F6EEDD" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8"/>
+<polygon points="190,196 210,196 200,208" fill="#E8573B" stroke="#1E1B17" stroke-width="3" stroke-linejoin="round"/>
+<path d="M200 208 q-8 12 -20 7 M200 208 q8 12 20 7" stroke="#1E1B17" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M150 206 l-58 -8 M150 216 l-56 6 M250 206 l58 -8 M250 216 l56 6" stroke="#1E1B17" stroke-width="3" stroke-linecap="round"/>
+</g>
+</svg>
