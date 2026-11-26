@@ -123,6 +123,26 @@ const jsonLd = {
   </section>
 
   {
+    r.gallery?.length > 0 && (
+      <section class="galeria-sec">
+        <div class="wrap-receta">
+          <h2>Fotos</h2>
+          <div class="galeria">
+            {r.gallery.map((g) => (
+              <figure>
+                <a href={g.src} target="_blank" rel="noopener">
+                  <img src={g.src} alt={g.caption || r.title} loading="lazy" decoding="async" />
+                </a>
+                {g.caption && <figcaption>{g.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
     parecidas.length > 0 && (
       <section class="wrap mas">
         <h2 style="font-size:40px">Sigue curioseando</h2>
@@ -276,6 +296,35 @@ const jsonLd = {
   }
   .extra.tomate {
     background: var(--tomate);
+  }
+  .galeria-sec {
+    background: var(--crema);
+    color: var(--tinta);
+    padding: 0 0 80px;
+  }
+  .galeria-sec h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .galeria figure {
+    margin: 0;
+  }
+  .galeria img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+  }
+  .galeria figcaption {
+    font-size: 14px;
+    margin-top: 8px;
+    opacity: 0.75;
   }
   .mas {
     padding-top: 80px;

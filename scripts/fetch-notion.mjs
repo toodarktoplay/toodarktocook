@@ -103,6 +103,7 @@ function prop(page, name) {
 function toBlocks(raw) {
   const blocks = [];
   let firstFileImage = null;
+  const images = [];
   for (const b of raw) {
     const d = b[b.type];
     switch (b.type) {
@@ -134,16 +135,20 @@ function toBlocks(raw) {
       }
       case 'image':
         if (!firstFileImage && d.type === 'file') firstFileImage = d.file.url;
+        if (d.type === 'file' || d.type === 'external') {
+          images.push({ url: d[d.type].url, caption: plain(d.caption) });
+        }
         break;
       default:
         break;
     }
   }
-  return { blocks, firstFileImage };
+  return { blocks, firstFileImage, images };
 }
 
 async function download(url, slug) {
-  const ext = (path.extname(new URL(url).pathname) || '.jpg').toLowerCase().slice(0, 5);
+  let ext = path.extname(new URL(url).pathname).toLowerCase();
+  if (!/^\.(jpe?g|png|webp|gif|avif)$/.test(ext)) ext = '.jpg';
   const file = `${slug}${ext}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`[notion] No pude bajar la foto de ${slug}`);
@@ -174,13 +179,17 @@ async function main() {
     while (used.has(slug)) slug += '-2';
     used.add(slug);
 
-    const { blocks, firstFileImage } = toBlocks(await children(page.id));
+    const { blocks, firstFileImage, images } = toBlocks(await children(page.id));
 
     // Foto: la que subas a Notion (portada o primera imagen) manda sobre la vieja de WordPress
     let photo = null;
+    let fotoDelCuerpo = null;
     try {
       if (page.cover?.type === 'file') photo = await download(page.cover.file.url, slug);
-      else if (firstFileImage) photo = await download(firstFileImage, slug);
+      else if (firstFileImage) {
+        photo = await download(firstFileImage, slug);
+        fotoDelCuerpo = firstFileImage;
+      }
     } catch (e) {
       console.warn(e.message);
     }
@@ -189,6 +198,18 @@ async function main() {
       if (wp) {
         const rel = wp.replace(/\.[a-z]+$/i, '.jpg');
         if (await exists(path.join(WP_DIR, rel))) photo = `/img/wp/${rel}`;
+      }
+    }
+
+    // Resto de fotos de dentro de la receta: salen en la galería, debajo de los pasos.
+    // La que ya se usa como foto principal no se repite.
+    const gallery = [];
+    for (const [i, img] of images.entries()) {
+      if (img.url === fotoDelCuerpo) continue;
+      try {
+        gallery.push({ src: await download(img.url, `${slug}-${i + 1}`), caption: img.caption });
+      } catch (e) {
+        console.warn(e.message);
       }
     }
 
@@ -202,6 +223,7 @@ async function main() {
       serieNum: null,
       date: prop(page, 'Fecha original')?.date?.start || page.created_time.slice(0, 10),
       photo,
+      gallery,
       blocks,
     });
   }

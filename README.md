@@ -30,6 +30,7 @@ Sin `.env` también arranca: usa las recetas guardadas en `src/data/recetas.json
   1. Si subes una foto a Notion como portada de la receta (o como imagen dentro), se usa esa.
   2. Si no, se usa la foto antigua de WordPress (`public/img/wp/`, a partir del campo **Foto WP**).
   3. Si no hay ninguna, sale un hueco de "Foto pendiente".
+  4. El resto de fotos que pongas dentro de la receta en Notion salen en una galería **Fotos**, debajo de los pasos (con su pie de foto, si tiene).
 - **Estructura de una receta en Notion:** un título `## Ingredientes` con una lista, y un título `## Elaboración` (o `Preparación` / `Pasos`) con una lista.
   Cualquier otro título `##` (por ejemplo "Lo que aprendí haciéndola") sale como tarjeta aparte.
   Si una receta no tiene esa estructura, se muestra como texto corrido.
